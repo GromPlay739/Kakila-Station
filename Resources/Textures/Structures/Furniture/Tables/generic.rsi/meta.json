@@ -5,7 +5,7 @@
     "y": 32
   },
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from Paradise at https://github.com/ParadiseSS13/Paradise/blob/bd91a1b962fe9bd38e346e9fafd4ebb10784fcb3/icons/obj/smooth_structures/tables/table.dmi",
+  "copyright": "Taken from Shiptest at commit https://github.com/shiptest-ss13/Shiptest/commit/3e0ed02ca2a03a17bc6ce07221adc6ec4918a4f0",
   "states": [
     {
       "name": "full",
