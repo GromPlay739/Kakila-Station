@@ -47,7 +47,7 @@
     - state: bench_solo_base
       color: "#767e82"
     - state: bench_solo_cover
-      color: "#8c4141"
+      color: "#88242d"
   - type: Construction
     graph: Seat
     node: redComfBench
@@ -62,7 +62,7 @@
     - state: bench_solo_base
       color: "#767e82"
     - state: bench_solo_cover
-      color: "#334e6d"
+      color: "#384967"
   - type: Construction
     graph: Seat
     node: blueComfBench
