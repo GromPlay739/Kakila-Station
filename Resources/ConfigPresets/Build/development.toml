@@ -5,8 +5,12 @@ level = 2
 enabled = false
 
 [net]
-tickrate = 30
-max_connections = 2000
+mtu = 700
+pvs_range = 18.0
+sendbuffersize = 262141
+receivebuffersize = 262141
+tickrate = 15
+max_connections = 40
 lidgren_log_warning = false
 lidgren_log_error = false
 log_late_msg = false
@@ -16,7 +20,7 @@ hostname = "Акила | Играем метакомпашкой"
 desc = "яндекс верните 450 рублей!!1!"
 max_players = 35
 maxcharacterslots = 25
-round_end_pvs_overrides = false
+round_end_pvs_overrides = true
 round_restart_time = 40
 defaultmap = "AquilaLoop"
 role_timers = false
@@ -29,11 +33,10 @@ map_pool = "SS14MapPool"
 map_memory_depth = 1
 timermap = 60.0
 timerrestart = 60.0
-timeralone = 60.0
 timerpreset = 40.0
 
 [movement]
-mob_pushing = 1
+mob_pushing = 0
 
 [shuttle]
 emergency_early_launch_allowed = 1
@@ -96,3 +99,9 @@ enabled = true
 
 [server]
 rules_file = "AQRules"
+
+[procgen]
+preload = false
+
+[netres]
+limit = 10.0
