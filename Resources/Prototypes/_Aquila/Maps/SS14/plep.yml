@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Box
+  id: AquilaPlep
   mapName: 'Box Station'
   mapPath: /Maps/_Aquila/Stations/AquilaPlep.yml # Goobstation
   minPlayers: 0 # Goobstation return minPlayers requirement for maps
