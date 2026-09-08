@@ -6,8 +6,8 @@
   components:
   - type: Rotatable
   - type: TextScreenVisuals
-    textOffset: 0,3
-    timerOffset: 0,-4
+    textOffset: 0,-2
+    timerOffset: 0,-8
     rows: 2
     rowLength: 6
     scrollEnabled: true
