@@ -1,0 +1,42 @@
+- type: job
+  id: OS14SecurityMarshall
+  name: job-name-OS14SecurityMarshall
+  description: job-description-OS14SecurityMarshall
+  playTimeTracker: OS14SecurityMarshall
+  requirements:
+    - !type:SpeciesRequirement # CorvaxGoob-Species
+      inverted: true
+      species:
+      - Abductor
+  guides:
+  - Command
+  weight: 20
+  startingGear: OS14SecurityMarshallGear
+  icon: "JobIconCaptain"
+  joinNotifyCrew: false
+  supervisors: job-supervisors-nobody
+  canBeAntag: false
+  skills: # CorvaxGoob-Skills
+  - ShuttleControl
+  - Shooting
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+      - type: Condemned
+        soulOwnedNotDevil: true
+
+- type: startingGear
+  id: OS14SecurityMarshallGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesCommand
+    gloves: ClothingHandsGlovesCaptain
+    id: CaptainPDA
+    ears: ClothingHeadsetAltCommand
+  storage:
+    back:
+    - Flash
+    - TelescopicBaton

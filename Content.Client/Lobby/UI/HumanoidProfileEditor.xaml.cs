@@ -1038,6 +1038,7 @@ namespace Content.Client.Lobby.UI
                             {
                                 Text = Loc.GetString(settingName),
                                 Margin = new Thickness(0, 12, 0, 0),
+                                FontColorOverride = Color.Red,
                                 StyleClasses = { StyleClass.LabelHeading }
                             }
                         }

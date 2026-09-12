@@ -1,0 +1,56 @@
+- type: entity
+  name: mic
+  id: KaraokeMic
+  description: Scoot from desk to desk because standing is for interns.
+  parent: BaseStructureDynamic
+  components:
+  - type: Pullable
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Construction
+    graph: MicGraph
+    node: mic
+  - type: AquilaKaraokeMic
+  - type: DeviceLinkSource
+    ports:
+    - KaraokeMicPort
+  - type: Rotatable
+    rotateWhileAnchored: true
+  - type: Sprite
+    sprite: _Aquila/Objects/karaokestuff.rsi
+    state: mic
+    noRot: true
+  - type: MovementSpeedModifier
+    acceleration: 10
+    friction: 3.5
+    baseSprintSpeed: 2.5
+    baseWalkSpeed: 1.5
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50 
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 75
+        mask:
+        - TableMask

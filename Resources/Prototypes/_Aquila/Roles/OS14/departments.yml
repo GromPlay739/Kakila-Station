@@ -1,0 +1,8 @@
+- type: department
+  id: OS14Command
+  name: department-OS14-command
+  description: department-OS14-command-description
+  setting: OS14
+  color: "#001aff"
+  roles:
+  - OS14SecurityMarshall
