@@ -1,0 +1,79 @@
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: KaraokeMachineCircuitBoard
+  name: KaraokeMachineCircuitBoard
+  description: A machine printed circuit board for a KaraokeMachineCircuitBoard.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: KaraokeMachine
+    stackRequirements:
+      WoodPlank: 5
+      Steel: 2
+      Glass: 5
+      Cable: 2
+
+- type: entity
+  id: KaraokeMachine
+  name: KaraokeMachine
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  description: DAME DAME
+  components:
+  - type: DeviceLinkSink
+    ports:
+    - KaraokeMachinePort
+  - type: DeviceList
+  - type: ItemSlots
+  - type: ContainerContainer
+    containers:
+      TapeComtainer: !type:ContainerSlot
+  - type: AquilaKaraokePlayer
+    tapeComtainer: &slotDef
+      whitelist:
+        components:
+        - AquilaKaraokeTape
+      swap: true
+  - type: Sprite
+    sprite: Structures/Machines/jukebox.rsi
+    layers:
+    - state: "off"
+      map: ["enum.JukeboxVisualLayers.Base"]
+    - state: "on"
+  - type: Transform
+    anchored: true
+  - type: Machine
+    board: JukeboxCircuitBoard
+  - type: Appearance
+  - type: ApcPowerReceiver
+    powerLoad: 100
+  - type: ExtensionCableReceiver
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 1
+            max: 2
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.45,0.25,0.45"
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+        density: 200

@@ -1,0 +1,8 @@
+- type: entity
+  parent: LightTubeCrystalGreen
+  name: лампа-индикатор
+  id: LightTubeCrystalGreenIndicator
+  components:
+  - type: LightBulb
+    lightEnergy: 25
+    lightRadius: 1.5

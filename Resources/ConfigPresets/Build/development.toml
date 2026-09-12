@@ -95,7 +95,7 @@ time = 5.0
 enabled = false
 
 [whitelist]
-enabled = true
+enabled = false
 
 [server]
 rules_file = "AQRules"

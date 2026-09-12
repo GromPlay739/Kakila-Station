@@ -1,0 +1,38 @@
+- type: construction
+  id: Mic
+  graph: MicGraph
+  startNode: start
+  targetNode: mic
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: constructionGraph
+  id: MicGraph
+  start: start
+  graph:
+    - node: start
+      actions:
+        - !type:DestroyEntity {}
+      edges:
+        - to: mic
+          steps:
+            - material: Steel
+              amount: 4
+              doAfter: 3
+            - material: Cable
+              amount: 2
+    - node: mic
+      entity: KaraokeMic
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 4
+          steps:
+            - tool: Screwing
+              doAfter: 3

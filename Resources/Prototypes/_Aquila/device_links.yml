@@ -1,0 +1,9 @@
+- type: sinkPort
+  id: KaraokeMachinePort
+  name: signal-port-name-KaraokeMachinePort
+  description: signal-port-description-KaraokeMachinePort
+
+- type: sourcePort
+  id: KaraokeMicPort
+  name: signal-port-name-KaraokeMicPort
+  description: signal-port-description-KaraokeMicPort

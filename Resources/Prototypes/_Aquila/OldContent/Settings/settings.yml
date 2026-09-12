@@ -2,3 +2,13 @@
   id:  SS14
   weight: 10
   name: "Space-Station-14"
+
+- type: aqSetting
+  id:  OS14
+  weight: 9
+  name: "Orbital-Station-14"
+
+- type: aqSetting
+  id:  Elysium
+  weight: 8
+  name: "Elysium-Prime"
