@@ -239,6 +239,10 @@
         - id: Flare
         - id: FoodBreadNutriBatard
         - id: DrinkWaterBottleFull
+  # Aquila
+  - type: Sprite
+    layers:
+    - state: box_mime
 
 - type: entity
   parent: BoxSurvivalNitrogen
@@ -255,10 +259,10 @@
         - id: Flare
         - id: FoodBreadNutriBatard
         - id: DrinkWaterBottleFull
+  # Aquila
   - type: Sprite
     layers:
-    - state: internals
-    - state: nitrogentank
+    - state: box_mime
   - type: Label
     currentLabel: reagent-name-nitrogen
 

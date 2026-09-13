@@ -126,6 +126,9 @@
   id: FillLockerBrigmedic
   table: !type:AllSelector
     children:
+    # Aquila Start
+    - id: CompactDefibrillator
+    # Aquila End
     - id: ClothingEyesGlassesSecurity
     - id: WeaponDisabler
     - id: TrackingImplanter

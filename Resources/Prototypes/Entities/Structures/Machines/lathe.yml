@@ -616,6 +616,7 @@
     # Einstein Engines Packs
     - SyringeCase
     dynamicPacks:
+    - CompactDefib # Aquila Compact Defibrillator
     - Chemistry
     # Goobstation Packs
     - Surgery

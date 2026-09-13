@@ -231,6 +231,9 @@
   id: LockerFillChiefMedicalOfficerNoHardsuit
   table: !type:AllSelector
     children:
+    # Aquila Start
+    - id: CompactDefibrillator
+    # Aquila End
     - id: BoxEncryptionKeyMedical
     # - id: ClothingBackpackDuffelSurgeryFilled # Goobstation - tools in webbing
     - id: ClothingEyesHudMedical
