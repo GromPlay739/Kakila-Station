@@ -6,3 +6,5 @@ asmb-desc-ArrowExplosive = взрывная стрела
 asmb-desc-ArrowFreeze = ледяная стрела
 asmb-desc-ArrowFiery = огненная стрела
 asmb-desc-ArrowDisabler = стан-стрела
+asmb-desc-ArrowHeal = исцеляющая стрела
+asmb-desc-ArrowHoly = святая стрела
