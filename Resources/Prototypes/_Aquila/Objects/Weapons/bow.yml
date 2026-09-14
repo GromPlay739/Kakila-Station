@@ -13,16 +13,16 @@
   description: An arrow made from hardlight.
   components:
   - type: Sprite
-    color: "#de9e41"
+    color: "#ffff00"
   - type: PointLight
-    color: "#de9e41"
+    color: "#ffff00"
   - type: Projectile
     damage:
       types:
-        Heat: 8
-        Holy: 35
+        Heat: 25
+        Holy: 20
   - type: TimedDespawn
-    lifetime: 5
+    lifetime: 3
 
 - type: entity
   parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
@@ -37,10 +37,8 @@
   - type: Projectile
     damage:
       groups:
-        Brute: -22
-        Burn: -22
-  - type: TimedDespawn
-    lifetime: 5
+        Brute: -33
+        Burn: -33
   - type: SpawnEntitiesOnHit
     spawnOnlyIfHitMob: false
     proto: EffectSpark
@@ -60,7 +58,7 @@
   icon:
     sprite: _Goobstation/Objects/Weapons/Guns/Bow/arrow.rsi
     state: arrow
-  color: "#de9e41"
+  color: "#ffff00"
   protoId: ArrowHoly
 
 - type: entity
@@ -72,18 +70,41 @@
   - type: Sprite
     sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
     layers:
-    - state: bow-folded
+    - state: bow
       map: [ "base" ]
     - state: unwielded-arrow
-      color: "#FFFFFF"
-      visible: false
+      color: "#ffffff"
       shader: unshaded
       map: [ "bowstring" ]
   - type: Item
-    heldPrefix: folded
     size: Normal
+  - type: ToggleableVisuals
+    spriteLayer: bowstring
+    inhandVisuals:
+      left:
+      - state: wielded-inhand-left-bowstring
+        shader: unshaded
+        map: [ "wielded-left" ]
+      right:
+      - state: wielded-inhand-right-bowstring
+        shader: unshaded
+        map: [ "wielded-right" ]
+    clothingVisuals:
+      back:
+      - state: bowstring-equipped-BACKPACK
+        shader: unshaded
+      suitstorage:
+      - state: bowstring-equipped-BACKPACK
+        shader: unshaded
   - type: Clothing
     sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
+    clothingVisuals:
+      back:
+      - state: unfolded-equipped-BACKPACK
+      - state: bowstring-equipped-BACKPACK
+      suitstorage:
+      - state: unfolded-equipped-BACKPACK
+      - state: bowstring-equipped-BACKPACK
     quickEquip: false
     slots:
       - Back
@@ -116,16 +137,6 @@
     prototypes:
       - ArrowHoly
       - ArrowHeal
-  - type: FoldingWeapon
-  - type: UserInterface
-    interfaces:
-      enum.AmmoSelectorUiKey.Key:
-        type: AmmoSelectorMenuBoundUserInterface
-  - type: ActivatableUI
-    altVerb: true
-    verbOnly: true
-    verbText: mode-select-verb-text
-    key: enum.AmmoSelectorUiKey.Key
   - type: ItemToggle
     wieldToggle: false
     soundActivate:
@@ -136,47 +147,26 @@
       path: /Audio/Weapons/telescopicoff.ogg
       params:
         volume: -5
-  - type: ItemToggleSize
-    activatedSize: Huge
   - type: ItemTogglePointLight
     toggleableVisualsColorModulatesLights: true
   - type: ComponentToggler
     components:
     - type: DisarmMalus
       malus: 0.6
+  - type: UserInterface
+    interfaces:
+      enum.AmmoSelectorUiKey.Key:
+        type: AmmoSelectorMenuBoundUserInterface
+  - type: ActivatableUI
+    altVerb: true
+    verbOnly: true
+    verbText: mode-select-verb-text
+    key: enum.AmmoSelectorUiKey.Key
   - type: PointLight
-    enabled: false
     radius: 1.5
     energy: 1.5
-    color: white
+    color: "#ffff00"
     netsync: false
-  - type: Appearance
-  - type: ToggleableVisuals
-    spriteLayer: bowstring
-    inhandVisuals:
-      left:
-      - state: inhand-left-bowstring
-        shader: unshaded
-        map: [ "left" ]
-      - state: wielded-inhand-left-bowstring
-        shader: unshaded
-        visible: false
-        map: [ "wielded-left" ]
-      right:
-      - state: inhand-right-bowstring
-        shader: unshaded
-        map: [ "right" ]
-      - state: wielded-inhand-right-bowstring
-        shader: unshaded
-        visible: false
-        map: [ "wielded-right" ]
-    clothingVisuals:
-      back:
-      - state: bowstring-equipped-BACKPACK
-        shader: unshaded
-      suitstorage:
-      - state: bowstring-equipped-BACKPACK
-        shader: unshaded
   - type: GenericVisualizer
     visuals:
       enum.WieldableVisuals.Wielded:
@@ -187,10 +177,7 @@
         bowstring:
           True: { visible: true }
           False: { visible: false }
-        base:
-          True: { state: bow }
-          False: { state: bow-folded }
-  - type: ToggleableLightWieldable
+  - type: Appearance
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
     maxOffset: 4 # Goobstation - Sniper rifles buff
