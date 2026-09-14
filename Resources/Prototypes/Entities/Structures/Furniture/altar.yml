@@ -28,7 +28,7 @@
   - type: Clickable
   - type: EnchantingTable # Goobstation
   - type: RecallPrayable # Goobstation
-  
+
 - type: entity
   id: AltarNanotrasen
   parent: AltarBase
@@ -83,7 +83,7 @@
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: druid
   - type: AltarSource
-    rodProto: MonkStaff
+    rodProto: BowHardlightChaplainDruid
     effectProto: EffectSpark
     soundPath: /Audio/Effects/hallelujah.ogg
   - type: Construction
