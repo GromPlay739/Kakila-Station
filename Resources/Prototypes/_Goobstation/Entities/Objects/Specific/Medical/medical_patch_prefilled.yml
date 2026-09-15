@@ -32,7 +32,7 @@
   suffix: Bicaridine
   components:
   - type: Label
-    currentLabel: Bicaridine 30u
+    currentLabel: reagent-name-bicaridine-30u
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -48,7 +48,7 @@
   suffix: Dermaline
   components:
   - type: Label
-    currentLabel: Dermaline 30u
+    currentLabel: reagent-name-dermaline-30u
   - type: SolutionContainerManager
     solutions:
       drink:

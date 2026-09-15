@@ -173,10 +173,6 @@
         bowstring:
           True: { state: wielded-arrow }
           False: { state: unwielded-arrow }
-      enum.ToggleableVisuals.Enabled:
-        bowstring:
-          True: { visible: true }
-          False: { visible: false }
   - type: Appearance
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
