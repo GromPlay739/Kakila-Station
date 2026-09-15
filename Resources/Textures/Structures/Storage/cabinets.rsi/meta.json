@@ -1,29 +1,35 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Created by EmoGarbage404",
+  "copyright": "taken from shiptest",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "chestdrawer"
+      "name": "chestdrawer",
+      "directions": 4
     },
     {
-      "name": "chestdrawer-open"
+      "name": "chestdrawer-open",
+      "directions": 4
     },
     {
-      "name": "filingcabinet"
+      "name": "filingcabinet",
+      "directions": 4
     },
     {
-      "name": "filingcabinet-open"
+      "name": "filingcabinet-open",
+      "directions": 4
     },
     {
-      "name": "tallcabinet"
+      "name": "tallcabinet",
+      "directions": 4
     },
     {
-      "name": "tallcabinet-open"
+      "name": "tallcabinet-open",
+      "directions": 4
     }
   ]
 }
