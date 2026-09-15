@@ -24,10 +24,10 @@
   # Lavaland Change start
     - !type:AdjustTemperature
       amount: 10000 # thermal energy, not temperature!
-    - !type:MovementSpeedModifier
-      walkSpeedModifier: 0.6
-      sprintSpeedModifier: 0.6
   # Lavaland Change end
+  - type: SpeedModifierContacts
+    walkSpeedModifier: 0.6
+    sprintSpeedModifier: 0.6
     # Goobstation - fishing
   - type: FishingSpot
     fishList: !type:NestedSelector
