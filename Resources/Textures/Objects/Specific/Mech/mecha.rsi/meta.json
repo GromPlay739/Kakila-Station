@@ -1,5 +1,5 @@
 {
-    "copyright" : "Taken from https://github.com/tgstation/tgstation at at https://github.com/tgstation/tgstation/commit/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a, hamtr made by brainfood1183 (github), Ripley edits by TiniestShark (Github)",
+    "copyright" : "durand, gygax, phazon, odysseus, ripley-g taken from Shiptest. Taken from https://github.com/tgstation/tgstation at at https://github.com/tgstation/tgstation/commit/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a, hamtr made by brainfood1183 (github), Ripley edits by TiniestShark (Github)",
     "license" : "CC-BY-SA-3.0",
     "version": 1,
     "size": {
@@ -316,7 +316,13 @@
         },
         {
             "name": "durand",
-            "directions": 4
+            "directions": 4,
+            "delays": [
+                [0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2],
+                [0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2],
+                [0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2],
+                [0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2]
+            ]
         },
         {
             "name": "durand-open",
@@ -332,15 +338,7 @@
             ]
         },
         {
-            "name": "durand-broken",
-            "delays": [
-                [
-                    0.5,
-                    1,
-                    0.5,
-                    1
-                ]
-            ]
+            "name": "durand-broken"
         },
         {
             "name": "gygax",
@@ -354,28 +352,12 @@
                     0.05,
                     0.05,
                     0.05,
-                    0.1,
-                    0.05,
-                    0.05,
-                    0.05,
                     0.1
                 ]
             ]
         },
         {
-            "name": "gygax-broken",
-            "delays": [
-                [
-                    5,
-                    0.05,
-                    0.05,
-                    0.05,
-                    0.1,
-                    0.1,
-                    0.5,
-                    0.1
-                ]
-            ]
+            "name": "gygax-broken"
         },
         {
             "name": "ripley-g",
