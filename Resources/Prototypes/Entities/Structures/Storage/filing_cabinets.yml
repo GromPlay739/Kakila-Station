@@ -53,14 +53,12 @@
     maxItemSize: Normal
   - type: Sprite
     sprite: Structures/Storage/cabinets.rsi
-    noRot: true
   - type: Appearance
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: Transform
-    noRot: true
   - type: Fixtures
     fixtures:
       fix1:
