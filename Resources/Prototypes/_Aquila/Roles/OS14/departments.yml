@@ -1,7 +1,7 @@
 - type: department
   id: OS14Command
-  name: department-OS14-command
-  description: department-OS14-command-description
+  name: department-os14-command
+  description: department-os14-command-desc
   setting: OS14
   color: "#001aff"
   roles:

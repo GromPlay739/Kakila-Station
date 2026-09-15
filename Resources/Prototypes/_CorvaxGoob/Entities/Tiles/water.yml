@@ -7,5 +7,3 @@
   - type: Sprite
     sprite: _CorvaxGoob/Tiles/Planet/azure_water.rsi
     drawdepth: BelowFloor
-    layers:
-      - state: shoreline_azure_water

@@ -153,3 +153,7 @@ ent-EnergyGateGenpopLeave = энергетический барьер
     .suffix = { "Выход из генпопа" }
 
 cmd-replay-toggle-screenshot-mode-desc = Включает или отключает режим скриншота в реплеях.
+department-os14-command = Командование
+department-os14-command-desc = Орбитальная станция 14
+job-name-OS14SecurityMarshall = маршал
+job-description-OS14SecurityMarshall = Орбитальная Станция 14

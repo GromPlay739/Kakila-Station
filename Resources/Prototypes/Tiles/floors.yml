@@ -2075,10 +2075,26 @@
   parent: BaseStationTile
   name: tiles-white-marble
   sprite: /Textures/Tiles/white_marble.png
-  variants: 8
+  variants: 6
   placementVariants:
   - 1.0
   - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  footstepSounds:
+    collection: FootstepTile
+  friction: 0.8
+  itemDrop: FloorTileItemWhiteMarble
+
+- type: tile
+  id: FloorWhiteMarbleMono
+  parent: BaseStationTile
+  name: tiles-white-marble-mono
+  sprite: /Textures/Tiles/white_marble_mono.png
+  variants: 6
+  placementVariants:
   - 1.0
   - 1.0
   - 1.0
@@ -2095,10 +2111,26 @@
   parent: BaseStationTile
   name: tiles-dark-marble
   sprite: /Textures/Tiles/dark_marble.png
-  variants: 8
+  variants: 6
   placementVariants:
   - 1.0
   - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  footstepSounds:
+    collection: FootstepTile
+  friction: 0.8
+  itemDrop: FloorTileItemDarkMarble
+
+- type: tile
+  id: FloorDarkMarbleMono
+  parent: BaseStationTile
+  name: tiles-dark-marble-mono
+  sprite: /Textures/Tiles/dark_marble_mono.png
+  variants: 6
+  placementVariants:
   - 1.0
   - 1.0
   - 1.0

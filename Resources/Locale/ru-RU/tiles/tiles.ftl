@@ -140,8 +140,10 @@ tiles-xeno-steel = стальной ксеноморфный пол
 tiles-xeno-steel-corner = угловой стальной ксеноморфный пол
 tiles-xeno-maint = технический ксеноморфный пол
 tiles-dark-squiggly = темный стальной волнистый пол
-tiles-white-marble = белый мрамор
-tiles-dark-marble = тёмный мрамор
+tiles-white-marble = белая мраморная плитка
+tiles-white-marble-mono = белый мрамор
+tiles-dark-marble = тёмная мраморная плитка
+tiles-dark-marble-mono = тёмный мрамор
 tiles-plasma-marble = плазма мрамор
 tiles-uranium-marble = урановый мрамор
 

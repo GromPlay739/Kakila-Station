@@ -6,7 +6,6 @@ reagent-name-tramadol-15u = Трамадол 15u
 reagent-name-oxycodone-15u = Оксикодон 15u
 reagent-name-ibuprofen-15u = Ибупрофен 15u
 reagent-name-heroin-15u = Героин 15u
-reagent-name-space-cleaner = Космический очиститель
 reagent-name-bicaridine-30u = Бикаридин 30u
 reagent-name-dermaline-30u = Дермалин 30u
 reagent-name-dexalin-10u = Дексалин 10u
