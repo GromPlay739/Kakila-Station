@@ -15,12 +15,22 @@
     blacklist:
       tags:
       - Catwalk
+    triggerGroups: # Goobstation
+      types:
+      - Lava
   - type: TileEntityEffect
     effects:
     - !type:Flammable
       multiplier: 3.75
       multiplierOnExisting: 0.75
     - !type:Ignite
+  # Goobstation - fishing
+  - type: FishingSpot
+    fishList: !type:NestedSelector
+      tableId: PlasmaFishingLootTable
+    fishDefaultTimer: 25.0
+    fishTimerVariety: 15.0
+  # Goobstation - fishing
   - type: Transform
     anchored: true
   - type: SyncSprite
@@ -50,8 +60,22 @@
         - ItemMask
         density: 1000
         hard: false
+      # Goobstation - fishing
+      fishing:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.4
+        layer:
+        - ItemMask
+        mask:
+        - HighImpassable
+        density: 1000
+        hard: false
+    # Goobstation - fishing
   - type: Tag
     tags:
     - HideContextMenu
+  - type: CosmicCorruptible # DeltaV - Cosmic Cult
+    convertTo: FloorCosmicDecay
   - type: PlacementReplacement
     key: tileOverlay

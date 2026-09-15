@@ -12551,7 +12551,7 @@ entities:
     - type: Transform
       pos: 18.713684,-8.406491
       parent: 2
-- proto: FloorDesertChasm
+- proto: FloorChasmEntity
   entities:
   - uid: 1573
     components:
