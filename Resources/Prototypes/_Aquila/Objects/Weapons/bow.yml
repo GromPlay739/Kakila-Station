@@ -78,33 +78,29 @@
       map: [ "bowstring" ]
   - type: Item
     size: Normal
-  - type: ToggleableVisuals
-    spriteLayer: bowstring
+    sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
     inhandVisuals:
       left:
-      - state: wielded-inhand-left-bowstring
-        shader: unshaded
-        map: [ "wielded-left" ]
+      - state: inhand-left
+        map: [ "base" ]
       right:
-      - state: wielded-inhand-right-bowstring
-        shader: unshaded
-        map: [ "wielded-right" ]
-    clothingVisuals:
-      back:
-      - state: bowstring-equipped-BACKPACK
-        shader: unshaded
-      suitstorage:
-      - state: bowstring-equipped-BACKPACK
-        shader: unshaded
+      - state: inhand-right
+        map: [ "base" ]
   - type: Clothing
     sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
     clothingVisuals:
       back:
       - state: unfolded-equipped-BACKPACK
+        map: [ "base" ]
       - state: bowstring-equipped-BACKPACK
+        shader: unshaded
+        map: [ "bowstring" ]
       suitstorage:
-      - state: unfolded-equipped-BACKPACK
+      - state: unfolded-equipped-SUITSTORAGE
+        map: [ "base" ]
       - state: bowstring-equipped-BACKPACK
+        shader: unshaded
+        map: [ "bowstring" ]
     quickEquip: false
     slots:
       - Back
@@ -139,6 +135,7 @@
       - ArrowHeal
   - type: ItemToggle
     wieldToggle: false
+    activated: true
     soundActivate:
       path: /Audio/Weapons/telescopicon.ogg
       params:
@@ -163,18 +160,43 @@
     verbText: mode-select-verb-text
     key: enum.AmmoSelectorUiKey.Key
   - type: PointLight
+    enabled: true
     radius: 1.5
     energy: 1.5
-    color: "#ffff00"
+    color: white
     netsync: false
+  - type: Appearance
+  - type: ToggleableVisuals
+    spriteLayer: bowstring
+    enabled: true
+    inhandVisuals:
+      left:
+      - state: inhand-left-bowstring
+        shader: unshaded
+        map: [ "bowstring" ]
+      right:
+      - state: inhand-right-bowstring
+        shader: unshaded
+        map: [ "bowstring" ]
+    clothingVisuals:
+      back:
+      - state: bowstring-equipped-BACKPACK
+        shader: unshaded
+        map: [ "bowstring" ]
+      suitstorage:
+      - state: bowstring-equipped-BACKPACK
+        shader: unshaded
+        map: [ "bowstring" ]
   - type: GenericVisualizer
     visuals:
       enum.WieldableVisuals.Wielded:
+        base:
+          True: { state: bow }
+          False: { state: bow }
         bowstring:
           True: { state: wielded-arrow }
           False: { state: unwielded-arrow }
-  - type: Appearance
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
-    maxOffset: 4 # Goobstation - Sniper rifles buff
-    pvsIncrease: 0.4 # Goobstation - Sniper rifles buff
+    maxOffset: 4
+    pvsIncrease: 0.4
