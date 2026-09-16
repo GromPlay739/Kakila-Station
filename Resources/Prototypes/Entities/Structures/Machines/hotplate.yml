@@ -34,6 +34,7 @@
   components:
   - type: Sprite
     sprite: Structures/Machines/hotplate.rsi
+    offset: 0, 0.1
     drawdepth: SmallObjects
     snapCardinals: true
     layers:
