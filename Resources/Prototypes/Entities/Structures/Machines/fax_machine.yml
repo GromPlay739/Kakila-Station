@@ -8,6 +8,7 @@
   components:
   - type: Sprite
     sprite: Structures/Machines/fax_machine.rsi
+    offset: 0, 0.2
     drawdepth: SmallObjects
     layers:
     - state: icon
