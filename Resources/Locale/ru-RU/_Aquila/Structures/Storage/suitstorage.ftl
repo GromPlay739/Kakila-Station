@@ -1,8 +1,8 @@
-ent-SuitStorageBase = хранилище скафандра
+ent-SuitStorageBaseAquila = хранилище скафандра
     .desc = Специальный современный отсек для хранения скафандра.
-ent-ModsuitStorageEmpty = {ent-SuitStorageBase}
+ent-ModsuitStorageEmptyAquila = {ent-SuitStorageBase}
     .desc = {ent-SuitStorageBase.desc}
     .suffix = Пустой
-ent-ModsuitStorageSyndicateEmpty = {ent-SuitStorageBase}
+ent-ModsuitStorageSyndicateEmptyAquila = {ent-SuitStorageBase}
     .desc = {ent-SuitStorageBase.desc}
     .suffix = Пустой, Синдикат
