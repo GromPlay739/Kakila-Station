@@ -78,29 +78,16 @@
       map: [ "bowstring" ]
   - type: Item
     size: Normal
-    sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
-    inhandVisuals:
-      left:
-      - state: inhand-left
-        map: [ "base" ]
-      right:
-      - state: inhand-right
-        map: [ "base" ]
+    sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi	
   - type: Clothing
     sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
     clothingVisuals:
       back:
       - state: unfolded-equipped-BACKPACK
         map: [ "base" ]
-      - state: bowstring-equipped-BACKPACK
-        shader: unshaded
-        map: [ "bowstring" ]
       suitstorage:
       - state: unfolded-equipped-SUITSTORAGE
         map: [ "base" ]
-      - state: bowstring-equipped-BACKPACK
-        shader: unshaded
-        map: [ "bowstring" ]
     quickEquip: false
     slots:
       - Back
@@ -134,6 +121,7 @@
       - ArrowHoly
       - ArrowHeal
   - type: ItemToggle
+    onActivate: false
     wieldToggle: false
     activated: true
     soundActivate:
@@ -173,11 +161,19 @@
       left:
       - state: inhand-left-bowstring
         shader: unshaded
-        map: [ "bowstring" ]
+        map: [ "left" ]
+      - state: wielded-inhand-left-bowstring
+        shader: unshaded
+        visible: false
+        map: [ "wielded-left" ]
       right:
       - state: inhand-right-bowstring
         shader: unshaded
-        map: [ "bowstring" ]
+        map: [ "right" ]
+      - state: wielded-inhand-right-bowstring
+        shader: unshaded
+        visible: false
+        map: [ "wielded-right" ]
     clothingVisuals:
       back:
       - state: bowstring-equipped-BACKPACK
@@ -196,6 +192,7 @@
         bowstring:
           True: { state: wielded-arrow }
           False: { state: unwielded-arrow }
+  - type: ToggleableLightWieldable
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
     maxOffset: 4
