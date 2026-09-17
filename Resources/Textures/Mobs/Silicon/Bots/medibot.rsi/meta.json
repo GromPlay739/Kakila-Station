@@ -1,5 +1,5 @@
 {
-   "copyright" : "Taken from https://github.com/tgstation/tgstation",
+   "copyright" : "Taken from Shiptest",
    "license" : "CC-BY-SA-3.0",
    "size" : {
       "x" : 32,
@@ -7,8 +7,11 @@
    },
    "states" : [
       {
-         "directions" : 1,
          "name" : "medibot"
+      },
+      {
+         "name" : "powered",
+         "delays": [[2,0.1,0.1,0.1,0.1]]
       }
    ],
    "version" : 1

@@ -393,7 +393,7 @@
           enum.DamageStateVisualLayers.BaseUnshaded:
             powered: Rainbow
   - type: Sprite
-    sprite: _Goobstation/Mobs/Silicon/Bots/medibot.rsi
+    sprite: Mobs/Silicon/Bots/medibot.rsi
     layers:
       - state: medibot
         map: [ "enum.DamageStateVisualLayers.Base" ]
