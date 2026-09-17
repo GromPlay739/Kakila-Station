@@ -97,6 +97,18 @@
     - !type:TileNotBlocked
 
 - type: construction
+  id: BenchSofaCorpCornerAlt
+  graph: SofasGraph
+  startNode: start
+  targetNode: BenchSofaCorpCornerAltNode
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
   id: BenchSteelMiddle
   graph: BenchesGraph
   startNode: start

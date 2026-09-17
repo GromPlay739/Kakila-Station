@@ -335,3 +335,18 @@
   - type: Construction # Frontier
     graph: SofasGraph # Frontier
     node: BenchSofaCorpCornerNode # Frontier
+
+- type: entity
+  name: grey sofa
+  parent: BenchSofaCorpCorner
+  id: BenchSofaCorpCornerAlt
+  suffix: Corner
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _SimpleStation/Structures/Furniture/Benches/sofa_corp.rsi
+    state: corner_alt
+  - type: Construction # Frontier
+    graph: SofasGraph # Frontier
+    node: BenchSofaCorpCornerAltNode # Frontier
