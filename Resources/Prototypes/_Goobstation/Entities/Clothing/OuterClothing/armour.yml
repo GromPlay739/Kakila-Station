@@ -380,7 +380,8 @@
 
 #  Shitchap
 - type: entity
-  parent: [ ClothingOuterBaseMedium, AllowSuitStorageClothing ]
+  parent: [ ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseChaplainContraband ]
+  suffix: Chaplain
   id: ClothingOuterArmorTemplar
   name: crusader armour
   description: God wills it!

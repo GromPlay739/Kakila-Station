@@ -6,6 +6,9 @@
   - type: Contraband
     allowedJobs: [ Chaplain ]
 
+- type: Tag
+  id: DruidBow
+
 - type: entity
   parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
   id: ArrowHoly
@@ -16,13 +19,15 @@
     color: "#ffff00"
   - type: PointLight
     color: "#ffff00"
+    radius: 2.5
+    energy: 2.5
   - type: Projectile
     damage:
       types:
         Heat: 25
         Holy: 20
   - type: TimedDespawn
-    lifetime: 3
+    lifetime: 6
 
 - type: entity
   parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
@@ -39,9 +44,12 @@
       groups:
         Brute: -33
         Burn: -33
+        Airloss: -8
   - type: SpawnEntitiesOnHit
-    spawnOnlyIfHitMob: false
+    spawnOnlyIfHitMob: true
     proto: EffectSpark
+  - type: TimedDespawn
+    lifetime: 2
 
 - type: selectableAmmo
   id: ArrowHeal
@@ -63,12 +71,12 @@
 
 - type: entity
   name: hardlight bow
-  parent: [BaseNullrod, BaseChaplainContraband]
-  id: BowHardlightChaplainDruid
+  parent: [BaseNullrod]
+  id: DruidBow
   description: Being a Donk Co. design based on the DT-12 Lawbringer, this folding bow can generate a multitude of arrow types to fit the user's needs.
   components:
   - type: Sprite
-    sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
+    sprite: _Aquila/Objects/Weapons/Bow/druid_bow.rsi
     layers:
     - state: bow
       map: [ "base" ]
@@ -78,9 +86,9 @@
       map: [ "bowstring" ]
   - type: Item
     size: Normal
-    sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi	
+    sprite: _Aquila/Objects/Weapons/Bow/druid_bow.rsi	
   - type: Clothing
-    sprite: _Aquila/Objects/Weapons/Bow/hardlight_druid_bow.rsi
+    sprite: _Aquila/Objects/Weapons/Bow/druid_bow.rsi
     clothingVisuals:
       back:
       - state: unfolded-equipped-BACKPACK
@@ -149,8 +157,8 @@
     key: enum.AmmoSelectorUiKey.Key
   - type: PointLight
     enabled: true
-    radius: 1.5
-    energy: 1.5
+    radius: 2.5
+    energy: 2.5
     color: white
     netsync: false
   - type: Appearance
@@ -193,7 +201,6 @@
           True: { state: wielded-arrow }
           False: { state: unwielded-arrow }
   - type: ToggleableLightWieldable
-  - type: CursorOffsetRequiresWield
-  - type: EyeCursorOffset
-    maxOffset: 4
-    pvsIncrease: 0.4
+  - type: Tag
+    tags:
+    - DruidBow
