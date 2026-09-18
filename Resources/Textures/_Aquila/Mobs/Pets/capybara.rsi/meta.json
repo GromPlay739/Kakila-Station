@@ -12,6 +12,18 @@
       "directions": 4
     },
     {
+      "name": "alive2",
+      "directions": 4
+    },
+    {
+      "name": "alive3",
+      "directions": 4
+    },
+    {
+      "name": "alive4",
+      "directions": 4
+    },
+    {
       "name": "dead"
     }
     ]

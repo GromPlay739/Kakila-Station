@@ -1,0 +1,373 @@
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieHlimmy
+  name: Hlimmy Wugo
+  suffix: Crook, COMMUNITY, TOY
+  description: What? You can't put the Research Director in the artifact crusher?
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/hlimmywugo.rsi
+    state: icon
+  - type: StorageFill
+    contents: []
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieJohnson
+  name: Johnson Pat
+  suffix: Crook, COMMUNITY, TOY
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/johnsonpat.rsi
+    state: icon
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieTaylor
+  name: Alex Taylor
+  suffix: Crook, COMMUNITY, TOY
+  description: Dumplings are very delicious!
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/alextaylor.rsi
+    state: icon
+  - type: StorageFill
+    contents:
+      - id: DrinkLongIslandIcedTeaGlass
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieMichael
+  name: Michael Murphy
+  suffix: Crook, COMMUNITY, TOY
+  description: ¡Hola, amigo! The epitome of Murphy's Law.
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/michaelmurphy.rsi
+    state: icon
+  - type: StorageFill
+    contents:
+      - id: DrinkTequilaSunriseGlass
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieSylvester
+  name: Sylvester Reynar
+  suffix: Crook, COMMUNITY, TOY
+  description: This toy is looking right into your soul with its plush eyes. Are you sure you have a gun permit?
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/sylvesterreynar.rsi
+    state: icon
+  - type: StorageFill
+    contents:
+      - id: FoodSnackSyndi
+      - id: FoodSnackSyndi
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieBorg
+  name: Borg
+  suffix: Crook, COMMUNITY, TOY
+  description: They LOVE it when you ask their laws over and over again... Emphasising the emptiness of their souls.
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/borg.rsi
+    state: icon
+  - type: StorageFill
+    contents:
+      - id: FoodBurgerRobot
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieAiden
+  name: Aiden Bismarck
+  suffix: Crook, COMMUNITY, TOY
+  description: Give me SoX, BoX, MSoX, ToX, belt, abductor engineering tools, abductor surgical tools, abductor musical instruments, red potion, blue potion, rainbow potion, grey-brown-red potion, anti-demolition potion, anti-diarrhoea potion, RCD, RPD, RPC, RKS, SVD, SKS, PTUR, mur, meow, woof, kria, oink, x-ray implant, u-ray implant, z-ray implant, SB-hood, med-hood, antag-hud, admin-hud, god's bonds, god's untying, pump plus, pump minus, pump multiplication, pump division. Breathing tube, exhalation tube, sighing tube, condemning sighing tube, anti-drop, anti-rave, anti-damage, anti-fracture, anti-vnutrtjak, anti-shchitkur, AEG, pepeg, immolator, annihilator, alligator, crocodile, falcon, tesla revolver, tesla carbine, tesla slingshot, tesla brass knuckles, explosives T4, X4, TNT4, cyber heart, cyber lungs, cyber heavy, cyber willpower, jump gene, splash gene, run gene, escape gene, full flight gene. And quickly, please!
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/aidenbismark.rsi
+    state: icon
+  - type: StorageFill
+    contents:
+      - id: SyringeEphedrine
+
+- type: entity
+  parent: BasePlushieCharacter
+  id: PlushieKarner
+  name: Anastasia Karner
+  suffix: Crook, COMMUNITY, TOY
+  description: Smells of pain, suffering, and bureaucracy. P.S. Don't put her next to Officer Amelia's toy... Otherwise, it will be too cute.
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/anastasiyakarner.rsi
+    state: icon
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadFlowerCentComGold
+  - type: EmitSoundOnUse
+    sound:
+      collection: CatMeows
+  - type: EmitSoundOnActivate
+    sound:
+      collection: CatMeows
+  - type: EmitSoundOnCollide
+    sound:
+      collection: CatMeows
+  - type: EmitSoundOnLand
+    sound:
+      collection: CatMeows
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: CatMeows
+  - type: UseDelay
+    delay: 1.0
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      collection: CatMeows
+
+- type: entity
+  parent: BaseFigurine
+  id: PlushieFumoJunko
+  abstract: true
+  name: Junko
+  suffix: Crook, COMMUNITY, TOY
+  description: Junko scary.
+  components:
+  - type: Item
+    size: Normal
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
+  - type: Tag
+    tags:
+      - Payload
+      - ClothMade
+  - type: Edible
+    requiresSpecialDigestion: true
+    useSound:
+      collection: ToySqueak
+    delay: 2
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      collection: ToySqueak
+    damage:
+      types:
+        Blunt: 0
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/crookielim.rsi
+    state: icon
+
+- type: localizedDataset
+  id: CrookieWords
+  values:
+    prefix: plushie-crookie-
+    count: 7
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieCrookie
+  name: Crookie Lim
+  suffix: Crook, COMMUNITY, TOY
+  description: A slippery fellow.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/crookielim.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: UseDelay
+    delay: 5.0
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Speech
+    speechSounds: CrookieSaid
+  - type: SpeakOnTrigger
+    pack: CrookieWords
+
+- type: speechSounds
+  id: CrookieSaid
+  saySound:
+    path: /Audio/Voice/Talk/Silicon/syndieborg.ogg
+  askSound:
+    path: /Audio/Voice/Talk/Silicon/syndieborg_ask.ogg
+  exclaimSound:
+    path: /Audio/Voice/Talk/Silicon/syndieborg_exclaim.ogg
+
+- type: localizedDataset
+  id: HornetWords
+  values:
+    prefix: plushie-hornet-
+    count: 4
+
+- type: speechSounds
+  id: HornetSaid
+  saySound:
+    path: /Audio/Items/Toys/weh.ogg
+  askSound:
+    path: /Audio/Items/Toys/weh.ogg
+  exclaimSound:
+    path: /Audio/Items/Toys/weh.ogg
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieHornet
+  name: Hornet
+  suffix: Crook, COMMUNITY, TOY
+  description: Shaw!
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/hornet.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: UseDelay
+    delay: 5.0
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Speech
+    speechSounds: HornetSaid
+  - type: SpeakOnTrigger
+    pack: HornetWords
+
+- type: localizedDataset
+  id: SeaguardWords
+  values:
+    prefix: plushie-seaguard-
+    count: 6
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieSeaguard
+  name: sea guard
+  suffix: Crook, COMMUNITY, TOY
+  description: yarr
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/seaguard.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: UseDelay
+    delay: 5.0
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Speech
+    speechSounds: HornetSaid
+  - type: SpeakOnTrigger
+    pack: SeaguardWords
+
+- type: localizedDataset
+  id: AtlasWords
+  values:
+    prefix: plushie-atlas-
+    count: 3
+
+- type: speechSounds
+  id: Atlas
+  saySound:
+    path: /Audio/Animals/cat_meow.ogg
+  askSound:
+    path: /Audio/Animals/cat_meow.ogg
+  exclaimSound:
+    path: /Audio/Animals/cat_meow.ogg
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieAtlas
+  name: Atlas
+  suffix: Crook, COMMUNITY, TOY
+  description: Meow!
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/atlas.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Speech
+    speechSounds: Atlas
+  - type: UseDelay
+    delay: 5.0
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: SpeakOnTrigger
+    pack: AtlasWords
+
+- type: localizedDataset
+  id: SanabiWords
+  values:
+    prefix: plushie-sanabi-
+    count: 6
+
+- type: speechSounds
+  id: SanabiSaid
+  saySound:
+    path: /Audio/_Aquila/Crook/sanabi.ogg
+  askSound:
+    path: /Audio/_Aquila/Crook/sanabi.ogg
+  exclaimSound:
+    path: /Audio/_Aquila/Crook/sanabi.ogg
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieSanabi
+  name: sanabi
+  suffix: Crook, COMMUNITY, TOY
+  description: sanabi
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/sanabi.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: UseDelay
+    delay: 12.0
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Speech
+    speechSounds: SanabiSaid
+  - type: SpeakOnTrigger
+    pack: SanabiWords

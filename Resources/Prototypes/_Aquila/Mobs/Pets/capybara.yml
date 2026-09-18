@@ -1,0 +1,107 @@
+- type: soundCollection
+  id: Capybara
+  files:
+    - /Audio/Animals/dog_bark1.ogg
+    - /Audio/Animals/fox2.ogg
+    - /Audio/Animals/raccoon_chatter.ogg
+
+- type: language
+  id: Capybara
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 2
+    replacement:
+    # CorvaxGoob-Localization-Start
+    - фиить
+    - фьють
+    - уииик
+    - хррр
+    - мррр
+    - ваф
+    - хаф
+    - гах
+    - иии
+    # CorvaxGoob-Localization-End
+
+- type: entity
+  name: possum
+  parent: [SimpleMobBase, StripableInventoryBase]
+  id: MobCapybara
+  description: chill man.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Aquila/Mobs/Pets/capybara.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: alive
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          alive: ""
+          alive2: ""
+          alive3: ""
+          alive4: ""
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: capybara
+    templateId: pet
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: alive
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 3
+  - type: InteractionPopup
+    successChance: 0.2 # Low when undomesticated.
+    interactFailureString: petting-failure-capybara
+    interactFailureSound:
+      path: /Audio/Animals/dog_bark1.ogg
+    interactSuccessSpawn: EffectHearts
+    interactSuccessString: petting-success-capybara
+    interactSuccessSound:
+      collection: Capybara
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: Tag
+    tags:
+    - VimPilot
+  - type: LanguageKnowledge # Einstein Engines - Language
+    speaks:
+    - Capybara
+    understands:
+    - Capybara
+    - TauCetiBasic
+
+- type: entity
+  parent: MarkerBase
+  id: SpawnMobCapybara
+  name: Capybara Spawner
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: alive
+      sprite: _Aquila/Mobs/Pets/capybara.rsi
+  - type: ConditionalSpawner
+    prototypes:
+    - MobCapybara
