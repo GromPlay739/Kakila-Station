@@ -1,0 +1,32 @@
+- type: entity
+  parent: BasePlatformWood
+  id: PlatformWoodSide
+  name: railing
+  description: Basic railing meant to protect idiots like you from falling.
+  components:
+  - type: Sprite
+    state: side
+  - type: Icon
+    state: side
+
+- type: entity
+  parent: BasePlatformWood
+  id: PlatformWoodCorner
+  name: railing
+  description: Basic railing meant to protect idiots like you from falling.
+  components:
+  - type: Sprite
+    state: corner
+  - type: Icon
+    state: corner
+
+- type: entity
+  parent: BasePlatformWood
+  id: PlatformWoodCornerSmall
+  name: railing
+  description: Basic railing meant to protect idiots like you from falling.
+  components:
+  - type: Sprite
+    state: corner_small
+  - type: Icon
+    state: corner_small

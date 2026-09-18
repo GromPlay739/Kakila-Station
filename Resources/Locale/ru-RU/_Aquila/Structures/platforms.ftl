@@ -1,0 +1,35 @@
+ent-BasePlatform = платформа
+    .desc = Осторожнее, не упадите.
+ent-PlatformSide = {ent-BasePlatform}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = Прямая
+ent-PlatformCorner = {ent-BasePlatform}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = Угловая
+ent-PlatformCornerSmall = {ent-BasePlatform}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = М.Угловая
+
+ent-BasePlatformReinforced = укреплённая платформа
+    .desc = {ent-BasePlatform.desc}
+ent-PlatformReinforcedSide = {ent-BasePlatformReinforced}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = Прямая
+ent-PlatformReinforcedCorner = {ent-BasePlatformReinforced}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = Угловая
+ent-PlatformReinforcedCornerSmall = {ent-BasePlatformReinforced}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = М.Угловая
+
+ent-BasePlatformWood = деревянная платформа
+    .desc = {ent-BasePlatform.desc}
+ent-PlatformWoodSide = {ent-BasePlatformWood}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = Прямая
+ent-PlatformWoodCorner = {ent-BasePlatformWood}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = Угловая
+ent-PlatformWoodCornerSmall = {ent-BasePlatformWood}
+    .desc = {ent-BasePlatform.desc}
+    .suffix = М.Угловая

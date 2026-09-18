@@ -1,0 +1,59 @@
+- type: entity
+  parent: BaseStructure
+  id: BasePlatform
+  abstract: true
+  name: railing
+  description: Basic railing meant to protect idiots like you from falling.
+  components:
+  - type: Sprite
+    drawdepth: SmallObjects
+    sprite: _Aquila/Structures/Platforms/solid.rsi
+  - type: Icon
+    sprite: _Aquila/Structures/Platforms/solid.rsi
+  - type: Physics
+    bodyType: Static
+  - type: InteractionOutline
+  - type: Repairable
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Climbable
+
+- type: entity
+  parent: BaseStructure
+  id: BasePlatformReinforced
+  abstract: true
+  name: railing
+  description: Basic railing meant to protect idiots like you from falling.
+  components:
+  - type: Sprite
+    drawdepth: SmallObjects
+    sprite: _Aquila/Structures/Platforms/reinforced.rsi
+  - type: Icon
+    sprite: _Aquila/Structures/Platforms/reinforced.rsi
+  - type: Physics
+    bodyType: Static
+  - type: InteractionOutline
+  - type: Repairable
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Climbable
+
+- type: entity
+  parent: BaseStructure
+  id: BasePlatformWood
+  abstract: true
+  name: railing
+  description: Basic railing meant to protect idiots like you from falling.
+  components:
+  - type: Sprite
+    drawdepth: SmallObjects
+    sprite: _Aquila/Structures/Platforms/wood.rsi
+  - type: Icon
+    sprite: _Aquila/Structures/Platforms/wood.rsi
+  - type: Physics
+    bodyType: Static
+  - type: InteractionOutline
+  - type: Repairable
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Climbable

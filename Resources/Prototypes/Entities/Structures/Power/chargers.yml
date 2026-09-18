@@ -169,13 +169,15 @@
     # WWDP Edit begin
     - map: ["enum.PowerChargerVisualLayers.Base"]
       state: "empty"
+      offset: 0,0.1
     - map: ["enum.PowerChargerVisualLayers.Light"]
       state: "light-off"
       shader: "unshaded"
+      offset: 0,0.1
     - map: ["enum.PowerChargerVisualLayers.ItemDisplay"]
       shader: "FlickerHologram"
       color: "#ffffffaa"
-      offset: 0,0.45
+      offset: 0,0.6
       scale: 0.5,0.5
     # WWDP Edit end
   - type: Machine
