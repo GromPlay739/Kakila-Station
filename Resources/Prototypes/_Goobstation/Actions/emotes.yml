@@ -15,21 +15,19 @@
   - does a flip!
   event: !type:AnimationFlipEmoteEvent
 
-# Corvax Goob-start
-#- type: emote
-#  id: Tweak
-#  name: chat-emote-name-tweak
-#  chatMessages: ["chat-emote-msg-tweak"]
-#  whitelist:
-#    tags:
-#    - Mouse
-#  chatTriggers:
-#  - tweak
-#  - tweaks
-#  - tweaks.
-#  - tweaks!
-#  event: !type:AnimationTweakEmoteEvent
-# Corvax Goob-end
+- type: emote
+  id: Tweak
+  name: chat-emote-name-tweak
+  chatMessages: ["chat-emote-msg-tweak"]
+  whitelist:
+     tags:
+     - Mouse
+  chatTriggers:
+   - tweak
+   - tweaks
+   - tweaks.
+   - tweaks!
+  event: !type:AnimationTweakEmoteEvent
 
 - type: emote
   id: Flex
