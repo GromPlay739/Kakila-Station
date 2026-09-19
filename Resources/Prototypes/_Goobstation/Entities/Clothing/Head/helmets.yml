@@ -169,9 +169,10 @@
 
 # Shitchap
 - type: entity
-  parent: ClothingHeadBase
+  parent: [ ClothingHeadBase, BaseChaplainContraband ]
   id: ClothingHeadHatHelmetTemplar
   name: crusader helmet
+  suffix: Chaplain
   description: Deus Vult.
   components:
   - type: Sprite

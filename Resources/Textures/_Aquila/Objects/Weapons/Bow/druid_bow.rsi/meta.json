@@ -14,22 +14,11 @@
       "name": "bow"
     },
     {
-      "name": "bow-folded"
-    },
-    {
       "name": "inhand-left",
       "directions": 4
     },
     {
       "name": "inhand-right",
-      "directions": 4
-    },
-    {
-      "name": "folded-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "folded-inhand-right",
       "directions": 4
     },
     {
@@ -61,15 +50,7 @@
       "directions": 4
     },
     {
-      "name": "folded-equipped-BACKPACK",
-      "directions": 4
-    },
-    {
       "name": "unfolded-equipped-SUITSTORAGE",
-      "directions": 4
-    },
-    {
-      "name": "folded-equipped-SUITSTORAGE",
       "directions": 4
     },
     {

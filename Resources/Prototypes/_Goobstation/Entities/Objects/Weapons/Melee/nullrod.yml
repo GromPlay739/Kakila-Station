@@ -1,8 +1,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity # Making a base item with allow for creating more variants easier. Probably.
-  parent: BaseItem
+  parent: [BaseItem, BaseChaplainContraband]
   id: BaseNullrod
+  suffix: Chaplain
   abstract: true
   components:
   - type: DivineIntervention

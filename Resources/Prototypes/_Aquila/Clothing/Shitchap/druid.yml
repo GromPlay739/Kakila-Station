@@ -1,0 +1,39 @@
+- type: entity
+  id: SpawnArmamentsDruid
+  categories: [ HideSpawnMenu ]
+  name: druid armor
+  parent: SpawnSupplyEmpty
+  components:
+  - type: SpawnTableOnDespawn
+    table: !type:AllSelector
+      children:
+      - id: ClothingOuterArmorDruid
+
+- type: entity
+  parent: [ClothingOuterArmorTemplar, ClothingOuterBaseToggleable]
+  id: ClothingOuterArmorDruid
+  name: druid armor
+  description: The ideal outfit for burning the unfaithful.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Clothing/Sets/Shitchap/druid/OuterClothing/druid.rsi
+  - type: Clothing
+    sprite: _Aquila/Clothing/Sets/Shitchap/druid/OuterClothing/druid.rsi
+  - type: ToggleableClothing
+    stripDelay: null
+    clothingPrototypes:
+      head: ClothingHeadHatHelmetDruid
+
+- type: entity
+  parent: ClothingHeadHatHelmetTemplar
+  id: ClothingHeadHatHelmetDruid
+  name: druid hat
+  description: Its only heretical when others do it.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Clothing/Sets/Shitchap/druid/Head/druid.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Aquila/Clothing/Sets/Shitchap/druid/Head/druid.rsi
+  - type: HideLayerClothing
+    layers: {}
