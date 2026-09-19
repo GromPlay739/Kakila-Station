@@ -46,10 +46,8 @@
         Burn: -33
         Airloss: -8
   - type: SpawnEntitiesOnHit
-    spawnOnlyIfHitMob: true
+    spawnOnlyIfHitMob: false
     proto: EffectSpark
-  - type: TimedDespawn
-    lifetime: 2
 
 - type: selectableAmmo
   id: ArrowHeal
