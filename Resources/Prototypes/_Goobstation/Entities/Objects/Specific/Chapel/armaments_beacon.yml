@@ -64,5 +64,11 @@
       icon:
         sprite: _Goobstation/Clothing/OuterClothing/Misc/schema_monk.rsi
         state: icon
+    # aquila start
+    - prototype: SpawnArmamentsDruid
+      icon:
+        sprite: _Aquila/Clothing/Sets/Shitchap/druid/OuterClothing/druid.rsi
+        state: full
+    # aquila end
   - type: StaticPrice
     price: 500
