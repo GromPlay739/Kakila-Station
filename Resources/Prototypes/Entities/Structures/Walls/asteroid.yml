@@ -416,6 +416,14 @@
   id: AsteroidRockBananium
 
 - type: entity
+  parent: AsteroidRockUranium
+  id: AsteroidRockUraniumCrab
+  suffix: Uranium Crab
+  components:
+  - type: OreVein
+    currentOre: OreBananiumCrab
+
+- type: entity
   parent: [ BaseRockGibtonite, BaseAsteroidRockVisuals, BaseAsteroidRock ]
   id: AsteroidRockGibtonite
 
