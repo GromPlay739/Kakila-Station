@@ -24,6 +24,8 @@
           ShardGlassUranium:
             min: 1
             max: 2
+      - !type:DoActsBehavior # AQUILA FIXES
+        acts: [ "Destruction" ]
   - type: IconSmooth
     base: uwindow
   - type: Construction
