@@ -159,10 +159,68 @@
     soundHit:
       collection: CatMeows
 
+# Фумо @buhoj_med
+
+# Datasets for Fumo
+- type: localizedDataset
+  id: FumoJunko
+  values:
+    prefix: fumo-junko-
+    count: 2
+- type: localizedDataset
+  id: FumoMarisa
+  values:
+    prefix: fumo-marisa-
+    count: 2
+- type: localizedDataset
+  id: FumoReimu
+  values:
+    prefix: fumo-reimu-
+    count: 2
+- type: localizedDataset
+  id: FumoReisen
+  values:
+    prefix: fumo-reisen-
+    count: 2
+- type: localizedDataset
+  id: FumoTewi
+  values:
+    prefix: fumo-tewi-
+    count: 2
+- type: localizedDataset
+  id: FumoCirno
+  values:
+    prefix: fumo-cirno-
+    count: 2
+- type: localizedDataset
+  id: FumoSakuya
+  values:
+    prefix: fumo-sakuya-
+    count: 4
+- type: localizedDataset
+  id: FumoEirin
+  values:
+    prefix: fumo-eirin-
+    count: 2
+- type: localizedDataset
+  id: FumoTeto
+  values:
+    prefix: fumo-teto-
+    count: 2
+# Datasets for Fumo
+
+- type: speechSounds
+  id: Fumo
+  saySound:
+    path: /Audio/_Aquila/Crook/fumo.ogg
+  askSound:
+    path: /Audio/_Aquila/Crook/fumo.ogg
+  exclaimSound:
+    path: /Audio/_Aquila/Crook/fumo.ogg
+
 - type: entity
   parent: BaseFigurine
   id: PlushieFumoJunko
-  abstract: true
   name: Junko
   suffix: Crook, COMMUNITY, TOY
   description: Junko scary.
@@ -198,8 +256,193 @@
       types:
         Blunt: 0
   - type: Sprite
-    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/crookielim.rsi
-    state: icon
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: junko
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoJunko
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoTeto
+  name: Teto
+  suffix: Crook, COMMUNITY, TOY
+  description: "The text on the tag reads: 'Feed her a baguette and she'll sing.'"
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: teto
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoTeto
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoMarisa
+  name: Marisa
+  suffix: Crook, COMMUNITY, TOY
+  description: Just let me possess the spark of all these bad boys!
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: marisa
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoMarisa
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoReimu
+  name: Reimu
+  suffix: Crook, COMMUNITY, TOY
+  description: I don't get paid enough for this.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: reimu
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoReimu
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoReisen
+  name: Reisen
+  suffix: Crook, COMMUNITY, TOY
+  description: Blinding you with madness.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: reisen
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoReisen
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoTewi
+  name: Tewi
+  suffix: Crook, COMMUNITY, TOY
+  description: Pranksta gangsta.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: tewi
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoTewi
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoCirno
+  name: Cirno
+  suffix: Crook, COMMUNITY, TOY
+  description: She's such a dummy.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: cirno
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoCirno
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoSakuya
+  name: Sakuya Izayoi
+  suffix: Crook, COMMUNITY, TOY
+  description: She is the supervisor of the maids and cleaners of the Scarlet Devil Mansion and always uses her ability to stop time while working.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: sakuya
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoSakuya
+
+- type: entity
+  parent: PlushieFumoJunko
+  id: PlushieFumoEirin
+  name: Eirin Yagokoro
+  suffix: Crook, COMMUNITY, TOY
+  description: A genius healer from the moon that she can even create an elixir of immortality using some of Kaguya Khoraisan's power.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumoplush.rsi
+    state: eirin
+  - type: Speech
+    speechSounds: Fumo
+  - type: SpeakOnTrigger
+    pack: FumoEirin
+
+- type: entity
+  id: FumoBoxCrook
+  parent: [PresentBase, BaseItem]
+  name: fumo box
+  description: Holds a plush Fumo.
+  suffix: Crook, COMMUNITY, TOY
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumobox.rsi
+    layers:
+      - state: icon
+  - type: SpawnItemsOnUse
+    items:
+      - id: FumoBoxCrookOpened
+      - id: PlushieFumoJunko
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoMarisa
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoReimu
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoReisen
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoTewi
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoCirno
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoSakuya
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoEirin
+        orGroup: GiftPool
+        prob: .1
+      - id: PlushieFumoTeto
+        onGroup: GiftPool
+        prob: .1
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+- type: entity
+  id: FumoBoxCrookOpened
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  name: unpacked fumo box
+  description: There used to be a fumo plushie in it.
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/fumobox.rsi
+    layers:
+      - state: icon-open
+  - type: Tag
+    tags:
+    - Trash
+  - type: SpaceGarbage
+
+# Фумо @buhoj_med
 
 - type: localizedDataset
   id: CrookieWords

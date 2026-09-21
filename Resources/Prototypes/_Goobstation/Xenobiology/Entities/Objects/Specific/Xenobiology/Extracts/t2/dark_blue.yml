@@ -20,9 +20,10 @@
         messages: [ "xeno-extract-reaction-reagent" ]
       - !type:PlaySoundEffect
         sound: /Audio/Effects/Chemistry/bubbles.ogg
-      - !type:AdjustReagent
+      - !type:AddReagentToSolution
+        solution: extract
         reagent: XenobioJellyDarkBlue
-        amount: 1
+        strengthModifier: 1
     - reagents: [ Plasma ]
       methods: [ Touch, Injection ]
       effects:
@@ -44,9 +45,10 @@
         messages: [ "xeno-extract-reaction-reagent" ]
       - !type:PlaySoundEffect
         sound: /Audio/Effects/Chemistry/bubbles.ogg
-      - !type:AdjustReagent
+      - !type:AddReagentToSolution
+        solution: extract
         reagent: Leporazine
-        amount: 30
+        strengthModifier: 2
   - type: Tag
     tags:
     - XenobiologyDarkBlueExtract

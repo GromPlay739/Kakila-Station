@@ -21,9 +21,10 @@
         messages: [ "xeno-extract-reaction-reagent" ]
       - !type:PlaySoundEffect
         sound: /Audio/Effects/Chemistry/bubbles.ogg
-      - !type:AdjustReagent
+      - !type:AddReagentToSolution
+        solution: extract
         reagent: SpaceLube
-        amount: 100
+        strengthModifier: 6
     - reagents: [ Plasma ]
       methods: [ Touch, Injection ]
       effects:
