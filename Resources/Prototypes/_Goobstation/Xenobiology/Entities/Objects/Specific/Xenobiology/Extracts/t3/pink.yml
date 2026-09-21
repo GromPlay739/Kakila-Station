@@ -31,9 +31,10 @@
         messages: [ "xeno-extract-reaction-reagent" ]
       - !type:PlaySoundEffect
         sound: /Audio/Effects/Chemistry/bubbles.ogg
-      - !type:AdjustReagent
+      - !type:AddReagentToSolution
+        solution: extract
         reagent: XenobioJellyPink
-        amount: 10
+        strengthModifier: 1
     - reagents: [ Blood ]
       methods: [ Touch, Injection ]
       effects:
@@ -43,9 +44,10 @@
         messages: [ "xeno-extract-reaction-reagent" ]
       - !type:PlaySoundEffect
         sound: /Audio/Effects/Chemistry/bubbles.ogg
-      - !type:AdjustReagent
+      - !type:AddReagentToSolution
+        solution: extract
         reagent: XenobioGenderFluid
-        amount: 10
+        strengthModifier: 1
   - type: Tag
     tags:
     - XenobiologyPinkExtract
