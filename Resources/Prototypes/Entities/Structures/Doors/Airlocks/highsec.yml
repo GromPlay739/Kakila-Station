@@ -137,6 +137,8 @@
           collection: MetalSlam
           params:
             volume: -4
+      - !type:DoActsBehavior # AQUILA FIXES
+        acts: [ "Destruction" ]
   - type: Construction
     graph: Airlock
     node: highSecDoor

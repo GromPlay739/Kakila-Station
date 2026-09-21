@@ -173,6 +173,8 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam
+      - !type:DoActsBehavior # AQUILA FIXES
+        acts: [ "Destruction" ]
   - type: Construction
     graph: Airlock
     node: airlock
