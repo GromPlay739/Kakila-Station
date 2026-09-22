@@ -1,38 +1,38 @@
-patron-support-window-title = Поддержите Corvax
-patron-support-window-header = Благодарим вас за то, что играете на наших серверах!
-patron-support-window-description1 = Если вам по-настоящему нравится играть на Corvax, настоятельно просим поддержать нас на нашем Boosty.
-patron-support-window-description2 = Ваша помощь поможет нам оплачивать серверное содержание, TTS-озвучку и улучшать существующий контент!
-patron-support-window-tiers-header = Уровни поддержки и награды
-patron-support-window-tier1-name = 🗲 Революционер (200RUB/месяц)
-patron-support-window-tier1-perk1 = • ⚑ Уникальная роль в Discord
-patron-support-window-tier1-perk2 = • 🎬 Уникальная тема призрака
-patron-support-window-tier1-perk3 = • 🗨 Доступ к отдельному чату в Discord
-patron-support-window-tier2-name = ⛤ Еретик (500RUB/месяц)
-patron-support-window-tier2-perk1 = = Всё за предыдущий уровень
-patron-support-window-tier2-perk2 = • 🟡 Жёлтый цвет ника в OOC
-patron-support-window-tier2-perk3 = • 🎬 Уникальная тема призрака
-patron-support-window-tier2-perk4 = • 🎮 Ещё +5 слотов персонажей
-patron-support-window-tier2-perk5 = • ✀ Доступ к 10 новым причёскам
-patron-support-window-tier2-perk6 = • 🫀 Доступ к киберпротезами во внешних чертах персонажа
-patron-support-window-tier3-name = ⚗ Маг (700RUB/месяц)
-patron-support-window-tier3-perk1 = = Всё за предыдущий уровень
-patron-support-window-tier3-perk2 = • 🟡 Синий цвет ника в OOC
-patron-support-window-tier3-perk3 = • 🎬 Уникальная тема призрака
-patron-support-window-tier3-perk4 = • 🔓 Вход на заполненый сервер без очереди
-patron-support-window-tier4-name = 🩸 Синдикат (1000RUB/месяц)
-patron-support-window-tier4-perk1 = = Всё за предыдущий уровень
-patron-support-window-tier4-perk2 = • 🟡 Красный цвет ника в OOC
-patron-support-window-tier4-perk3 = • 🎬 Уникальная тема призрака
-patron-support-window-tier4-perk4 = • 🐈 Доступ к кошачьим ушкам и хвосту во внешних чертах персонажа
-patron-support-window-tier5-name = 🙪 Парадокс клон (1800RUB/месяц)
-patron-support-window-tier5-perk1 = = Всё за предыдущий уровень
-patron-support-window-tier5-perk2 = • 🟡 Оранжевый цвет ника в OOC
-patron-support-window-tier6-name = 🪶 Ниндзя (1800RUB/месяц)
-patron-support-window-tier6-perk1 = = Всё за предыдущий уровень
-patron-support-window-tier6-perk2 = • 🟡 Зелёный цвет ника в OOC
-patron-support-window-tier6-perk3 = • 📦 Добавим ваш кастомный косметический предмет на время подписки
-patron-support-window-tier6-perk4 = • ♫ Можете создать собственный уникальный голос для персонажа
-patron-support-window-tier6-perk5 = • 🎔 Вы прекрасны!
-patron-support-window-tier7-name = ☭ Союз Советских Социалистических Планет (12000RUB/месяц)
-patron-support-window-tier7-perk1 = = Всё за предыдущий уровень
-patron-support-window-button = Посетить наш Boosty
+patron-support-window-title = Нам нужны ваши деньги
+patron-support-window-header = Хост не бесплатный так что...
+patron-support-window-description1 = Нам нужны ВАШИ деньги!
+patron-support-window-description2 = И нет, это не Миша Е в меня вселился, просто даже на такую нищенскую машину нужна оплата. Так что переходите и отдавайте.
+patron-support-window-tiers-header = Что вам за это будет
+patron-support-window-tier1-name = Почет и уважение
+patron-support-window-tier1-perk1 = ㅤ
+patron-support-window-tier1-perk2 = ㅤ
+patron-support-window-tier1-perk3 = ㅤ
+patron-support-window-tier2-name = Сервак не закроется через месяц 
+patron-support-window-tier2-perk1 = ㅤ
+patron-support-window-tier2-perk2 = ㅤ
+patron-support-window-tier2-perk3 = ㅤ
+patron-support-window-tier2-perk4 = ㅤ
+patron-support-window-tier2-perk5 = ㅤ
+patron-support-window-tier2-perk6 = ㅤ
+patron-support-window-tier3-name = Пацаны на районе перестанут чморить за патлы
+patron-support-window-tier3-perk1 = ㅤ
+patron-support-window-tier3-perk2 = ㅤ
+patron-support-window-tier3-perk3 = ㅤ
+patron-support-window-tier3-perk4 = ㅤ
+patron-support-window-tier4-name = Ваши деньги ТОЧНО не уйдут в Израиль
+patron-support-window-tier4-perk1 = ㅤ
+patron-support-window-tier4-perk2 = ㅤ
+patron-support-window-tier4-perk3 = ㅤ
+patron-support-window-tier4-perk4 = ㅤ
+patron-support-window-tier5-name = Большой пенис/Большая жопа на выбор (даже для пацанов)
+patron-support-window-tier5-perk1 = ㅤ
+patron-support-window-tier5-perk2 = ㅤ
+patron-support-window-tier6-name = ㅤ
+patron-support-window-tier6-perk1 = ㅤ
+patron-support-window-tier6-perk2 = ㅤ
+patron-support-window-tier6-perk3 = ㅤ
+patron-support-window-tier6-perk4 = ㅤ
+patron-support-window-tier6-perk5 = ㅤ
+patron-support-window-tier7-name = Кейн набьет ваше лицо себе на щеку
+patron-support-window-tier7-perk1 = ㅤ
+patron-support-window-button = ДАТЬ ДЕНЕГ
