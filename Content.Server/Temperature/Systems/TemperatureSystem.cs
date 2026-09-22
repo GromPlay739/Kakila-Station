@@ -93,6 +93,7 @@ public sealed partial class TemperatureSystem : SharedTemperatureSystem
         var lastTemp = temperature.CurrentTemperature;
         var delta = temperature.CurrentTemperature - temp;
         temperature.CurrentTemperature = temp;
+        // RaiseLocalEvent(uid, new OnTemperatureChangeEvent(temperature.CurrentTemperature, lastTemp, delta), broadcast: true);    // Aquila Fix
 
         // Goob start
 
