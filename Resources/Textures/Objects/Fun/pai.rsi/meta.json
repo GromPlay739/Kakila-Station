@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/9ddb8cf084e292571d4e9c79745db25befbd82fe. pai-searching-overlay heavily modified. Syndicate variants by fedKotikeD, and potato by Doru991. Golden pai variant is made from ScrapPAIGold by AsnDen",
+  "copyright": "Taken from Shiptest and modified by crookielv",
   "size": {
     "x": 32,
     "y": 32
@@ -23,6 +23,10 @@
       "name": "pai-on-overlay",
       "delays": [
         [
+          0.8,
+          0.8,
+          0.8,
+          0.8,
           0.8,
           0.8
         ]
@@ -47,6 +51,10 @@
       "name": "syndicate-pai-on-overlay",
       "delays": [
         [
+          0.8,
+          0.8,
+          0.8,
+          0.8,
           0.8,
           0.8
         ]
