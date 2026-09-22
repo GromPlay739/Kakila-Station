@@ -87,11 +87,12 @@ public sealed partial class TemperatureSystem : SharedTemperatureSystem
     {
         if (!TemperatureQuery.Resolve(uid, ref temperature))
             return;
+        if (Math.Abs(temperature.CurrentTemperature - temp) < 0.01f)    // Aquila Fix
+            return;                                                     // Aquila Fix
 
         var lastTemp = temperature.CurrentTemperature;
         var delta = temperature.CurrentTemperature - temp;
         temperature.CurrentTemperature = temp;
-        RaiseLocalEvent(uid, new OnTemperatureChangeEvent(temperature.CurrentTemperature, lastTemp, delta), broadcast: true);
 
         // Goob start
 
