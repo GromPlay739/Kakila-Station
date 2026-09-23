@@ -650,3 +650,13 @@
     speechSounds: PlushieSaid
   - type: SpeakOnTrigger
     pack: AnoraWords
+
+- type: entity
+  parent: PlushieLizard
+  id: PlushieUrell
+  name: plushie Urell
+  suffix: COMMUNITY, TOY
+  description: urell
+  components:
+  - type: Sprite
+    sprite: _Aquila/Objects/Fun/Toys/Crook/Plushie/urellkerban.rsi
