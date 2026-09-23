@@ -17,6 +17,8 @@
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
       state: "pda"
+    - state: "screen"
+      shader: "unshaded"
     - state: "light_overlay"
       map: [ "enum.PdaVisualLayers.Flashlight" ]
       shader: "unshaded"
@@ -1117,6 +1119,23 @@
     borderColor: "#891417"
   - type: Icon
     state: pda-syndi
+  - type: Sprite
+    sprite: Objects/Devices/pda.rsi
+    layers:
+      - map: [ "enum.PdaVisualLayers.Base" ]
+        state: pda-syndi
+      - state: screen_syndicate
+        shader: unshaded
+      - state: "light_overlay"
+        map: [ "enum.PdaVisualLayers.Flashlight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "id_overlay"
+        map: [ "enum.PdaVisualLayers.IdLight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "insert_overlay" # Goob
+        map: [ "enum.PdaVisualLayers.Pen" ]
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     preinstalled:
@@ -1139,6 +1158,23 @@
        pda-syndi-operative
   - type: Icon
     state: pda-syndi-operative
+  - type: Sprite
+    sprite: Objects/Devices/pda.rsi
+    layers:
+      - map: [ "enum.PdaVisualLayers.Base" ]
+        state: pda-syndi-operative
+      - state: screen_syndicate
+        shader: unshaded
+      - state: "light_overlay"
+        map: [ "enum.PdaVisualLayers.Flashlight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "id_overlay"
+        map: [ "enum.PdaVisualLayers.IdLight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "insert_overlay" # Goob
+        map: [ "enum.PdaVisualLayers.Pen" ]
 
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
@@ -1155,6 +1191,23 @@
        pda-syndi-corpsman
   - type: Icon
     state: pda-syndi-corpsman
+  - type: Sprite
+    sprite: Objects/Devices/pda.rsi
+    layers:
+      - map: [ "enum.PdaVisualLayers.Base" ]
+        state: pda-syndi-corpsman
+      - state: screen_syndicate
+        shader: unshaded
+      - state: "light_overlay"
+        map: [ "enum.PdaVisualLayers.Flashlight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "id_overlay"
+        map: [ "enum.PdaVisualLayers.IdLight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "insert_overlay" # Goob
+        map: [ "enum.PdaVisualLayers.Pen" ]
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     preinstalled:
@@ -1177,6 +1230,23 @@
        pda-syndi-commander
   - type: Icon
     state: pda-syndi-commander
+  - type: Sprite
+    sprite: Objects/Devices/pda.rsi
+    layers:
+      - map: [ "enum.PdaVisualLayers.Base" ]
+        state: pda-syndi-commander
+      - state: screen_syndicate
+        shader: unshaded
+      - state: "light_overlay"
+        map: [ "enum.PdaVisualLayers.Flashlight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "id_overlay"
+        map: [ "enum.PdaVisualLayers.IdLight" ]
+        shader: "unshaded"
+        visible: false
+      - state: "insert_overlay" # Goob
+        map: [ "enum.PdaVisualLayers.Pen" ]
 
 - type: entity
   parent: BaseSecurityPDA

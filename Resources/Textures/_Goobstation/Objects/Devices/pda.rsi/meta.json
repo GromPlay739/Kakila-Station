@@ -1,12 +1,15 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by BombasterDS - https://github.com/MetalSage/space-stories-archive/commit/26812e79c19c5f998bcbc445afbdceea625bc887, PDA-Blueshield drawn by SolsticeOfTheWinter, pda-highcommand based on syndi PDA and drawn by SolsticeOfTheWinter, pda-deathsquad Sprited by ShootsTheMoon, pda-outercommand by discord: Valniae (bbalint105)",
+  "copyright": "Made by crookielv, PDA-Blueshield drawn by crookielv, pda-highcommand based on syndi PDA and drawn by crookielv, pda-deathsquad Sprited by crookielv, pda-outercommand by discord: crookielv",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
+	{
+      "name": "screen"
+    },
 	{
       "name": "pda-chrono"
     },
