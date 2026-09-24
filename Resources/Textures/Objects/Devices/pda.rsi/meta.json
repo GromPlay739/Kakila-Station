@@ -1,12 +1,19 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/59f2a4e10e5ba36033c9734ddebfbbdc6157472d, pda-cluwne made by brainfood1183 (github) ss14 | pda-brigmedic and pda-centcom made by PuroSlavKing (Github) | pda-brigemdic resprited by Hülle#2562 (Discord), pda-pirate made by brainfood1183 (Github), pda-syndi-agent drawn by Ubaser, pda-wizard recolour by Velken, pda-syndi-commander/operative by Archee1 (Github)",
+    "copyright": "Taken from Shiptest, pda-cluwne made by crookielv | pda-brigmedic and pda-centcom made by crookielv | pda-brigemdic resprited by crookielv, pda-pirate made by crookielv, pda-syndi-agent drawn by crookielv, pda-wizard recolour by crookielv, pda-syndi-commander/operative by crookielv",
     "size": {
         "x": 32,
         "y": 32
     },
     "states": [
+        {
+            "name": "screen"
+        },
+        {
+            "name": "screen_syndicate",
+            "delays": [[3, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]]
+        },
         {
             "name": "id_overlay"
         },
@@ -98,15 +105,7 @@
             "name": "pda-lawyer"
         },
         {
-            "name": "pda-library",
-            "delays": [
-                [
-                    0.3,
-                    0.3,
-                    0.3,
-                    0.3
-                ]
-            ]
+            "name": "pda-library"
         },
         {
             "name": "pda-medical"
@@ -157,15 +156,7 @@
             "name": "pda-security"
         },
         {
-            "name": "pda-brigmedic",
-            "delays": [
-                [
-                    0.3,
-                    0.3,
-                    0.3,
-                    0.3
-                ]
-            ]
+            "name": "pda-brigmedic"
         },
         {
             "name": "pda-syndi"
@@ -180,15 +171,7 @@
             "name": "pda-syndi-operative"
         },
         {
-            "name": "pda-centcom",
-            "delays": [
-                [
-                    1.2,
-                    1.2,
-                    1.2,
-                    1.2
-                ]
-            ]
+            "name": "pda-centcom"
         },
         {
             "name": "pda-virology"
@@ -242,15 +225,7 @@
             "name": "pda-seniorcourier"
         },
         {
-            "name": "pda-wizard",
-            "delays": [
-                [
-                    0.3,
-                    0.3,
-                    0.3,
-                    0.3
-                ]
-            ]
+            "name": "pda-wizard"
         },
         {
             "name": "equipped-IDCARD",
