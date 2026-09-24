@@ -5,7 +5,7 @@
   bodyPart: Special
   markingCategory: Special
   speciesRestriction: [Human] # CorvaxGoob-Sponsors
-  sponsorOnly: true # CorvaxGoob-Sponsors
+  sponsorOnly: false # фуу капитализм
   coloring:
     default:
       type:
@@ -29,7 +29,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true # CorvaxGoob-Sponsors
+  sponsorOnly: false # фуу капитализм
   coloring:
     default:
       type:
