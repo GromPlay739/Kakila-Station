@@ -1,0 +1,217 @@
+- type: entity
+  parent: ProduceSliceBase
+  id: FoodPicklesSlice
+  name: pickles wedge
+  description: Small. Green. Salty.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - salty
+  - type: Sprite
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: pickles
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 6
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 2
+        - ReagentId: Protein
+          Quantity: 2
+        - ReagentId: Vitamin
+          Quantity: 2
+  - type: Tag
+    tags:
+    - Slice
+  - type: FoodSequenceElement
+    entries:
+      Burger: SlicePicklesBurger
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ProduceSliceBase
+  id: FoodChiliSlice
+  name: chili wedge
+  description: Spicy chili pepper slices.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - spicy
+  - type: Sprite
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: chili
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: CapsaicinOil
+          Quantity: 7
+        - ReagentId: Vitamin
+          Quantity: 2
+  - type: Tag
+    tags:
+    - Slice
+  - type: FoodSequenceElement
+    entries:
+      Burger: SliceChiliBurger
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ProduceSliceBase
+  id: FoodBananaSlice
+  name: banana wedge
+  description: A tasty and sweet banana slices.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - banana
+  - type: Sprite
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: banana
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 6
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 4
+        - ReagentId: Vitamin
+          Quantity: 2
+  - type: Tag
+    tags:
+    - Slice
+  - type: FoodSequenceElement
+    entries:
+      Burger: SliceBananaBurger
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ProduceSliceBase
+  id: FoodTomatoSlice
+  name: tomato wedge
+  description: A wedge of delicious Cheddar. The cheese wheel it was cut from can't have gone far.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - tomato
+  - type: Sprite
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: tomato
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 9
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 4
+        - ReagentId: Vitamin
+          Quantity: 1
+        - ReagentId: Water
+          Quantity: 1
+  - type: Tag
+    tags:
+    - Slice
+  - type: FoodSequenceElement
+    entries:
+      Burger: SliceTomatoBurger
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ProduceSliceBase
+  id: FoodCucumberSlice
+  name: cucumber wedge
+  description: Small. Green. And not salty.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - cucumber
+  - type: Sprite
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: cucumber
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 9
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 4
+        - ReagentId: Vitamin
+          Quantity: 1
+        - ReagentId: Water
+          Quantity: 1
+  - type: Tag
+    tags:
+    - Slice
+  - type: FoodSequenceElement
+    entries:
+      Burger: SliceCucumberBurger
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ProduceSliceBase
+  id: FoodPotatoSlice
+  name: potato wedge
+  description: Thinly sliced ​​potatoes are perfect for chips.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - potato
+  - type: Sprite
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: potato
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 9
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 4.5
+        - ReagentId: Vitamin
+          Quantity: 1.5
+  - type: Tag
+    tags:
+    - Slice
+  - type: FoodSequenceElement
+    entries:
+      Burger: SlicePotatoBurger
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ProduceSliceBase
+  id: FoodCabbageSlice
+  name: cabbage wedge
+  description: A fresh green lettuce leaf
+  components:
+  - type: FlavorProfile
+    flavors:
+      - cabbage
+  - type: Sprite
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: cabbage
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 9
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 4.5
+        - ReagentId: Vitamin
+          Quantity: 1.5
+  - type: Tag
+    tags:
+    - Slice
+  - type: FoodSequenceElement
+    entries:
+      Burger: SliceCabbageBurger
+  - type: Item
+    size: Tiny

@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "made by CrookLv & KoQdiev",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "cheese"
+    },
+    {
+      "name": "bun_bottom"
+    },
+    {
+      "name": "bun_top"
+    },
+    {
+      "name": "patty"
+    },
+    {
+      "name": "potato"
+    },
+    {
+      "name": "red_onion"
+    },
+    {
+      "name": "cabbage"
+    },
+    {
+      "name": "tomato"
+    },
+    {
+      "name": "tomatoBurger"
+    },
+    {
+      "name": "banana"
+    },
+    {
+      "name": "bacon"
+    },
+    {
+      "name": "chili"
+    },
+    {
+      "name": "onion"
+    },
+    {
+      "name": "pickles"
+    },
+    {
+      "name": "cucumber"
+    }
+  ]
+}

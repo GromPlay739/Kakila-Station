@@ -4,7 +4,7 @@
   id: BunTopBurger
   final: true
   sprites:
-  - sprite: Objects/Consumable/Food/burger_sequence.rsi
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila sprite change
     state: bun_top
   tags:
   - Bun
@@ -42,7 +42,7 @@
   id: CheeseBurger
   name: food-sequence-content-cheese
   sprites:
-  - sprite: Objects/Consumable/Food/burger_sequence.rsi
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila change sprite
     state: cheese
   tags:
   - Cheese
@@ -95,10 +95,8 @@
 - type: foodSequenceElement
   id: MeatBacon
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
-    state: bacon-cooked
-  - sprite: Objects/Consumable/Food/meat.rsi
-    state: bacon2-cooked
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila change sprite
+    state: bacon # Aquila change sprite
   tags:
   - Cooked
   - Meat
@@ -317,8 +315,8 @@
 - type: foodSequenceElement
   id: MeatCutlet
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
-    state: cutlet-cooked
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila change sprite
+    state: patty # Aquila change sprite
   tags:
   - Cooked
   - Cutlet
@@ -740,8 +738,8 @@
   id: OnionSliceBurger
   name: food-sequence-burger-content-onion
   sprites:
-  - sprite: Objects/Specific/Hydroponics/onion.rsi
-    state: slice
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila change sprite
+    state: onion # Aquila change sprite
   tags:
   - Vegetable
   - Slice
@@ -762,8 +760,8 @@
   id: OnionRedSliceBurger
   name: food-sequence-burger-content-onion
   sprites:
-  - sprite: Objects/Specific/Hydroponics/onion_red.rsi
-    state: slice
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila change sprite
+    state: red_onion # Aquila change sprite
   tags:
   - Vegetable
   - Slice

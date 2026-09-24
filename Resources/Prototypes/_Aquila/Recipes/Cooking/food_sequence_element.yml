@@ -1,0 +1,56 @@
+- type: foodSequenceElement
+  id: SlicePicklesBurger
+  name: food-sequence-burger-content-slice-pickles
+  sprites:
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: pickles
+
+- type: foodSequenceElement
+  id: SliceBananaBurger
+  name: food-sequence-burger-content-slice-banana
+  sprites:
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: banana
+  tags:
+  - Banana
+
+- type: foodSequenceElement
+  id: SliceChiliBurger
+  name: food-sequence-burger-content-slice-chili
+  sprites:
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: chili
+
+- type: foodSequenceElement
+  id: SliceTomatoBurger
+  name: food-sequence-burger-content-slice-tomato
+  sprites:
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: tomatoBurger
+  tags:
+  - Tomato
+
+- type: foodSequenceElement
+  id: SliceCucumberBurger
+  name: food-sequence-burger-content-slice-cucumber
+  sprites:
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: cucumber
+
+- type: foodSequenceElement
+  id: SlicePotatoBurger
+  name: food-sequence-burger-content-slice-potato
+  sprites:
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: potato
+  tags:
+  - Potato
+
+- type: foodSequenceElement
+  id: SliceCabbageBurger
+  name: food-sequence-burger-content-slice-cabbage
+  sprites:
+  - sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi
+    state: cabbage
+  tags:
+  - Cabbage

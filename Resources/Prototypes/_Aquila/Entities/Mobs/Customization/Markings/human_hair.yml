@@ -1,0 +1,295 @@
+- type: marking
+  id: HumanHairTGSVine
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: vine_1-2
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: vine_2-2
+
+- type: marking
+  id: HumanHairTGSFig
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: fig_1-2
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: vine_2-2
+
+- type: marking
+  id: HumanHairTGSIvy
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: ivy_1-2
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: ivy_2-2
+
+- type: marking
+  id: HumanHairTGSRose
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: rose_1-2
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: rose_2-2
+
+- type: marking
+  id: HumanHairTGSOrchid
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: orchid_1-2
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: orchid_2-2
+
+- type: marking
+  id: HumanHairTGSPonytail
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: ponytail_1-2
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: ponytail_2-2
+
+- type: marking
+  id: HumanHairTGSPonytail2
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: ponytail2_1-2
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: ponytail2_2-2
+
+- type: marking
+  id: HumanHairTGSPonytail3
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: ponytail3
+
+- type: marking
+  id: HumanHairTGSPrayer
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: prayer
+
+- type: marking
+  id: HumanHairTGSLong
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: long
+
+- type: marking
+  id: HumanHairTGSShrud
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: shrud
+
+- type: marking
+  id: HumanHairTGSSpinach
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_tg_station.rsi
+      state: spinach
+
+# Shiptest
+
+- type: marking
+  id: HumanHairShiptestCurly
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: curly
+
+- type: marking
+  id: HumanHairShiptestDisheveled
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: disheveled
+
+- type: marking
+  id: HumanHairShiptestDisheveled2
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: disheveled2
+
+- type: marking
+  id: HumanHairShiptestDisheveledPonytail
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: disheveledPonytail
+
+- type: marking
+  id: HumanHairShiptestGroomed
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: groomed
+
+- type: marking
+  id: HumanHairShiptestLong
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: long
+
+- type: marking
+  id: HumanHairShiptestLong2
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: long2
+
+- type: marking
+  id: HumanHairShiptestPonytail
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: ponytail
+
+- type: marking
+  id: HumanHairShiptestPonytail2
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: ponytail2
+
+- type: marking
+  id: HumanHairShiptestPonytail3
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: ponytail3
+
+- type: marking
+  id: HumanHairShiptestShaven
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: shaven
+
+- type: marking
+  id: HumanHairShiptestShort
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: short
+
+- type: marking
+  id: HumanHairShiptestShort2
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: short2
+
+- type: marking
+  id: HumanHairShiptestShort3
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: short3
+
+- type: marking
+  id: HumanHairShiptestShort4
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: short4
+
+- type: marking
+  id: HumanHairShiptestShort5
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: short5
+
+- type: marking
+  id: HumanHairShiptestShortPonytail
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: shortPonytail
+
+- type: marking
+  id: HumanHairShiptestShortPonytail2
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: shortPonytail2
+
+- type: marking
+  id: HumanHairShiptestShortRounded
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: shortRounded
+
+- type: marking
+  id: HumanHairShiptestSlickedRight
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: slickedRight
+
+- type: marking
+  id: HumanHairShiptestSlickedRight2
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: slickedRight2
+
+- type: marking
+  id: HumanHairShiptestSlickedRight3
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: slickedRight3
+
+- type: marking
+  id: HumanHairShiptestSpiky
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Aquila/Customization/Markings/human_hair_shiptest.rsi
+      state: spiky
