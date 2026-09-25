@@ -42,6 +42,11 @@
           Quantity: 2
         - ReagentId: Protein
           Quantity: 2
+  # Aquila Start
+  - type: SliceableFood
+    count: 3
+    slice: FoodPicklesSlice
+  # Aquila End
   - type: FlavorProfile
     flavors:
       - salty

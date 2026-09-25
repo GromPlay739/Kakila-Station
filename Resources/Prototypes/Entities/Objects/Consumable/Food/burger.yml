@@ -38,18 +38,18 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Consumable/Food/burger_sequence.rsi
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila sprite change
     layers:
     - state: bun_bottom
     - map: ["foodSequenceLayers"]
   - type: FoodSequenceStartPoint
     key: Burger
     acceptAll: true # Goobstation - anythingburgers
-    maxLayers: 12 # Goobstation - anythingburgers
+    maxLayers: 48 # Goobstation - anythingburgers # Aquila Change просто так, хочу большие бургеры
     startPosition: 0, 0
-    offset: 0, 0.07
-    minLayerOffset: -0.05, 0
-    maxLayerOffset: 0.05, 0
+    offset: 0, 0.03125 # Aquila Change
+    minLayerOffset: 0, 0 # Aquila Change
+    maxLayerOffset: 0, 0 # Aquila Change
     nameGeneration: food-sequence-burger-gen
   - type: Appearance
   - type: FoodMetamorphableByAdding
@@ -69,7 +69,7 @@
   description: The perfect finish for your burger tower.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/burger_sequence.rsi
+    sprite: _Aquila/Objects/Consumables/Food/burger_sequence.rsi # Aquila sprite change
     layers:
     - state: bun_top
   - type: SolutionContainerManager

@@ -351,6 +351,11 @@
           Quantity: 4
         - ReagentId: Vitamin
           Quantity: 2
+  # Aquila Start
+  - type: SliceableFood
+    count: 2
+    slice: FoodBananaSlice
+  # Aquila End
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
   - type: Item
@@ -620,6 +625,11 @@
           Quantity: 10
         - ReagentId: Vitamin
           Quantity: 4
+  # Aquila Start
+  - type: SliceableFood
+    count: 3
+    slice: FoodCabbageSlice
+  # Aquila End
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/cabbage.rsi
   - type: Item
@@ -893,6 +903,11 @@
           Quantity: 10
         - ReagentId: Vitamin
           Quantity: 4
+  # Aquila Start
+  - type: SliceableFood
+    count: 3
+    slice: FoodPotatoSlice
+  # Aquila End
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/potato.rsi
   - type: Item
@@ -934,6 +949,11 @@
           Quantity: 3
         - ReagentId: Water
           Quantity: 4
+  # Aquila Start
+  - type: SliceableFood
+    count: 3
+    slice: FoodTomatoSlice
+  # Aquila End
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tomato.rsi
   - type: Item
@@ -1505,6 +1525,11 @@
             Quantity: 10
           - ReagentId: Vitamin
             Quantity: 4
+  # Aquila Start
+  - type: SliceableFood
+    count: 3
+    slice: FoodChiliSlice
+  # Aquila End
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/chili.rsi
   - type: Item

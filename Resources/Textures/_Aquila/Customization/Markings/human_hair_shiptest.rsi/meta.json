@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "curly",
+      "directions": 4
+    },
+    {
+      "name": "disheveled",
+      "directions": 4
+    },
+    {
+      "name": "disheveled2",
+      "directions": 4
+    },
+    {
+      "name": "disheveledPonytail",
+      "directions": 4
+    },
+    {
+      "name": "groomed",
+      "directions": 4
+    },
+    {
+      "name": "long",
+      "directions": 4
+    },
+    {
+      "name": "long2",
+      "directions": 4
+    },
+    {
+      "name": "ponytail",
+      "directions": 4
+    },
+    {
+      "name": "ponytail2",
+      "directions": 4
+    },
+    {
+      "name": "ponytail3",
+      "directions": 4
+    },
+    {
+      "name": "shaven",
+      "directions": 4
+    },
+    {
+      "name": "short",
+      "directions": 4
+    },
+    {
+      "name": "short2",
+      "directions": 4
+    },
+    {
+      "name": "short3",
+      "directions": 4
+    },
+    {
+      "name": "short4",
+      "directions": 4
+    },
+    {
+      "name": "short5",
+      "directions": 4
+    },
+    {
+      "name": "shortPonytail",
+      "directions": 4
+    },
+    {
+      "name": "shortPonytail2",
+      "directions": 4
+    },
+    {
+      "name": "shortRounded",
+      "directions": 4
+    },
+    {
+      "name": "slickedRight",
+      "directions": 4
+    },
+    {
+      "name": "slickedRight2",
+      "directions": 4
+    },
+    {
+      "name": "slickedRight3",
+      "directions": 4
+    },
+    {
+      "name": "spiky",
+      "directions": 4
+    }
+  ]
+}

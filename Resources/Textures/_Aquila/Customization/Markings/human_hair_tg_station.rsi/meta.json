@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "vine_1-2",
+      "directions": 4
+    },
+    {
+      "name": "vine_2-2",
+      "directions": 4
+    },
+    {
+      "name": "fig_1-2",
+      "directions": 4
+    },
+    {
+      "name": "fig_2-2",
+      "directions": 4
+    },
+    {
+      "name": "ivy_1-2",
+      "directions": 4
+    },
+    {
+      "name": "ivy_2-2",
+      "directions": 4
+    },
+    {
+      "name": "orchid_1-2",
+      "directions": 4
+    },
+    {
+      "name": "orchid_2-2",
+      "directions": 4
+    },
+    {
+      "name": "ponytail_1-2",
+      "directions": 4
+    },
+    {
+      "name": "ponytail_2-2",
+      "directions": 4
+    },
+    {
+      "name": "ponytail2_1-2",
+      "directions": 4
+    },
+    {
+      "name": "ponytail2_2-2",
+      "directions": 4
+    },
+    {
+      "name": "ponytail3",
+      "directions": 4
+    },
+    {
+      "name": "shrud",
+      "directions": 4
+    },
+    {
+      "name": "spinach",
+      "directions": 4
+    },
+    {
+      "name": "rose_1-2",
+      "directions": 4
+    },
+    {
+      "name": "rose_2-2",
+      "directions": 4
+    },
+    {
+      "name": "prayer",
+      "directions": 4
+    },
+    {
+      "name": "long",
+      "directions": 4
+    }
+  ]
+}

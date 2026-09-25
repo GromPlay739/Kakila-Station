@@ -18,6 +18,11 @@
           Quantity: 3
         - ReagentId: Water
           Quantity: 4
+  # Aquila Start
+  - type: SliceableFood
+    count: 3
+    slice: FoodCucumberSlice
+  # Aquila End
   - type: Sprite
     sprite: _CorvaxGoob/Objects/Specific/Hydroponics/cucumber.rsi
   - type: Produce

@@ -301,18 +301,20 @@ public sealed class FoodSequenceSystem : SharedFoodSequenceSystem
         {
             var sizeMap = new Dictionary<int, string>
             {
-                { 1, "Small" },
-                { 2, "Normal" },
-                { 3, "Large" },
-                { 4, "Huge" },
-                { 5, "Ginormous" }
+                // Aquila Change Start
+                { 3, "Small" },
+                { 6, "Normal" },
+                { 9, "Large" },
+                { 12, "Huge" },
+                { 15, "Ginormous" }
+                // Aquila Change End
             };
 
             if (sizeMap.ContainsKey(increment))
             {
                 _item.SetSize(start, sizeMap[increment]);
             }
-            else if (increment == 6)
+            else if (increment == 18) // Aquila Change
             {
                 _transform.DropNextTo(start.Owner, start.Owner);
                 RemComp<ItemComponent>(start);
@@ -323,7 +325,8 @@ public sealed class FoodSequenceSystem : SharedFoodSequenceSystem
         // todo goob refactor this or move GravityWellComponent to shared
         // This kinda works but the teleport afterwards is kinda ass so replace or kill
         // you cant do this anyway with most things due to limit on stacking
-        else if (increment >= 8) {
+        else if (increment >= 24) // Aquila Change
+        {
             EnsureComp<SpawnGravityWellComponent>(start, out var gravityWell);
             gravityWell.MaxRange = (float)Math.Sqrt(increment/4);
             gravityWell.BaseRadialAcceleration = (float)Math.Sqrt(increment/4);
