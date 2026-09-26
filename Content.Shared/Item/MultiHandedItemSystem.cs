@@ -99,15 +99,15 @@ public sealed class MultiHandedItemSystem : EntitySystem
         if (TerminatingOrDeleted(ent))
             return;
 
-    var parent = Transform(ent).ParentUid;
-    if (!parent.IsValid())
-        return;
+    var parent = Transform(ent).ParentUid; // Aquila Fix
+    if (!parent.IsValid())                 // Aquila Fix
+        return;                            // Aquila Fix
 
         // Method exists for that but it calls an event on deleting the virtual item hence forces the item to drop
-        foreach (var hand in _hands.EnumerateHands(parent))
+        foreach (var hand in _hands.EnumerateHands(parent)) // Aquila Fix
         {
             if (_timing.InPrediction
-                || !_hands.TryGetHeldItem(parent, hand, out var held)
+                || !_hands.TryGetHeldItem(parent, hand, out var held) // Aquila Fix
                 || !TryComp(held, out VirtualItemComponent? virt)
                 || virt.BlockingEntity != ent.Owner)
                 continue;
