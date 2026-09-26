@@ -99,11 +99,15 @@ public sealed class MultiHandedItemSystem : EntitySystem
         if (TerminatingOrDeleted(ent))
             return;
 
+    var parent = Transform(ent).ParentUid;
+    if (!parent.IsValid())
+        return;
+
         // Method exists for that but it calls an event on deleting the virtual item hence forces the item to drop
-        foreach (var hand in _hands.EnumerateHands(Transform(ent).ParentUid))
+        foreach (var hand in _hands.EnumerateHands(parent))
         {
             if (_timing.InPrediction
-                || !_hands.TryGetHeldItem(ent.Owner, hand, out var held)
+                || !_hands.TryGetHeldItem(parent, hand, out var held)
                 || !TryComp(held, out VirtualItemComponent? virt)
                 || virt.BlockingEntity != ent.Owner)
                 continue;
