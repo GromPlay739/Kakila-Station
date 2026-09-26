@@ -21,7 +21,7 @@
     damage:
       types:
         Blunt: 10
-        Structural: 15
+        Structural: 35
   # Short lifespan
   - type: TimedDespawn
     lifetime: 0.14 # roughly 3.5 tiles
@@ -42,7 +42,7 @@
     damage:
       types:
         Blunt: 40
-        Structural: 35
+        Structural: 50
   - type: Ammo
     muzzleFlash: HitscanEffect
   - type: TimedDespawn
@@ -72,8 +72,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Structural: 5
+        Blunt: 4
+        Structural: 20
 
 - type: entity
   id: PelletKinetic

@@ -45,9 +45,11 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 30
+        damage: 10
       behaviors:
-      - &SoundStoneBreak !type:PlaySoundBehavior
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
         sound:
           path: /Audio/Effects/break_stone.ogg
           params:
@@ -527,7 +529,11 @@
         !type:DamageTrigger
         damage: 150
       behaviors:
-      - *SoundStoneBreak
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/break_stone.ogg
   - type: IconSmooth
     key: stone
     index: 0

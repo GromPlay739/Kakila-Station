@@ -49,7 +49,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 80
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 #endregion
 #region Barriers / Windows
@@ -65,7 +67,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 30
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 # full window / reinforced direction window
 - type: entity
@@ -77,7 +81,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 80
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 # reinforced full window / deployable security barrier / girder
 - type: entity
@@ -89,7 +95,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 120
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 #endregion
 #region Containers
@@ -104,7 +112,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 20
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 # Crate / wall closet
 - type: entity
@@ -116,7 +126,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 60
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 # Locker / closet
 - type: entity
@@ -128,7 +140,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 100
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 # Suit storage / gas canister
 - type: entity
@@ -140,7 +154,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 140
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 #endregion
 #region Machines
@@ -155,10 +171,12 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 50
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 25
-      behaviors: &DoBreakage
+      behaviors:
       - !type:DoActsBehavior
         acts: [ "Breakage" ]
 
@@ -172,10 +190,14 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 100
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 50
-      behaviors: *DoBreakage
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
 
 # Regular full tile machine
 - type: entity
@@ -187,10 +209,14 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 175
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 75
-      behaviors: *DoBreakage
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
 
 # Important game piece like a recycler or server
 - type: entity
@@ -202,10 +228,14 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 275
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 175
-      behaviors: *DoBreakage
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
 
 # Multi-tile machine
 - type: entity
@@ -217,10 +247,14 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 400
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 275
-      behaviors: *DoBreakage
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
 
 #endregion
 #region Doors
@@ -235,10 +269,14 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 100
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 50
-      behaviors: *DoBreakage
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
 
 # Airlocks / firelocks
 - type: entity
@@ -250,10 +288,14 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 200
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 100
-      behaviors: *DoBreakage
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
 
 # High-security airlocks / blast doors
 - type: entity
@@ -265,10 +307,14 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 350
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
     - trigger: !type:DamageTrigger
         damage: 250
-      behaviors: *DoBreakage
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
 
 #endregion
 #region Walls
@@ -283,7 +329,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 150
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 # Basic steel wall
 - type: entity
@@ -295,7 +343,9 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 250
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 # Heavy walls like plasteel
 - type: entity
@@ -307,6 +357,8 @@
     thresholds:
     - trigger: !type:DamageTrigger
         damage: 350
-      behaviors: *DoDestruction
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 #endregion

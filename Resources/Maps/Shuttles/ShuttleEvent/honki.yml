@@ -282,7 +282,7 @@ entities:
     - type: Transform
       pos: -1.4946816,-0.2775966
       parent: 1
-- proto: BananiumDoor
+- proto: WoodDoor
   entities:
   - uid: 8
     components:

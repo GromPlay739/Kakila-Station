@@ -27,8 +27,8 @@ spellbook-force-wall-desc =
     Doesn't require wizard's robe and hat to cast.
 
 # Goob we have our own.
-#spellbook-repulse-name = Repulse
-#spellbook-repulse-desc = Tell people to GITTAH`WEIGH and push 'em away from you.
+# spellbook-repulse-name = Repulse
+# spellbook-repulse-desc = Tell people to GITTAH`WEIGH and push 'em away from you.
 
 spellbook-polymorph-spider-name = Spider Polymorph
 spellbook-polymorph-spider-desc = Transforms you into a spider, man!

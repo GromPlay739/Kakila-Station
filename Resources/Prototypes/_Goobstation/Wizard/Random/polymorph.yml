@@ -9,7 +9,6 @@
     GoldDoor: 1
     SilverDoor: 1
     PaperDoor: 1
-    BananiumDoor: 1
 
 - type: weightedRandomEntity
   id: WabbajackMonkey

@@ -17,12 +17,12 @@ examinable-solution-recognized = [color={$color}]{$chemical}[/color]
 
 examinable-solution-on-examine-volume = The contained solution is { $fillLevel ->
     [exact] holding [color=white]{$current}/{$max}u[/color].
-   *[other] [bold]{ -solution-vague-fill-level(fillLevel: $fillLevel) }[/bold].
+   *[other] [bold]{ -solution-vague-fill-level }[/bold].
 }
 
 examinable-solution-on-examine-volume-no-max = The contained solution is { $fillLevel ->
     [exact] holding [color=white]{$current}u[/color].
-   *[other] [bold]{ -solution-vague-fill-level(fillLevel: $fillLevel) }[/bold].
+   *[other] [bold]{ -solution-vague-fill-level }[/bold].
 }
 
 examinable-solution-on-examine-volume-puddle = The puddle is { $fillLevel ->

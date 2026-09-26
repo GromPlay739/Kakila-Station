@@ -18330,18 +18330,6 @@ entities:
     - type: Transform
       pos: 66.14989,25.59294
       parent: 2
-- proto: BananiumDoor
-  entities:
-  - uid: 10541
-    components:
-    - type: Transform
-      pos: 64.5,31.5
-      parent: 2
-  - uid: 10542
-    components:
-    - type: Transform
-      pos: 66.5,39.5
-      parent: 2
 - proto: BannerNanotrasen
   entities:
   - uid: 9655
@@ -187526,6 +187514,16 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 35.5,-41.5
+      parent: 2
+  - uid: 10541
+    components:
+    - type: Transform
+      pos: 64.5,31.5
+      parent: 2
+  - uid: 10542
+    components:
+    - type: Transform
+      pos: 66.5,39.5
       parent: 2
 - proto: WoodenBench
   entities:

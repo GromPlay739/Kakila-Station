@@ -3,7 +3,7 @@ set-game-preset-command-help-text = setgamepreset <id> [количество р�
 set-game-preset-preset-error = Не удаётся найти игровой пресет "{ $preset }"
 set-game-preset-optional-argument-not-integer = Если второй аргумент предоставлен, он должен быть числом.
 set-game-preset-preset-set = Установить игровой пресет на "{ $preset }"
-#set-game-preset-preset-set = Set game preset to "{$preset}"
+# set-game-preset-preset-set = Set game preset to "{$preset}"
 set-game-preset-preset-set-finite = Установлен пресет "{ $preset }" на { $rounds ->
     [one] следующий раунд
     [few] следующие { $rounds } раунда

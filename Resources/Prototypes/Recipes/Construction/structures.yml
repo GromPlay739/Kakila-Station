@@ -1280,18 +1280,6 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: BananiumDoor
-  graph: DoorGraph
-  startNode: start
-  targetNode: bananiumDoor
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
 ##- type: construction
 ##  name: bananium altar
 ##  id: BananiumAltar

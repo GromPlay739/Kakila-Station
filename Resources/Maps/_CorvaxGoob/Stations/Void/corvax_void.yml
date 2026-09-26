@@ -19987,13 +19987,6 @@ entities:
     - type: Transform
       pos: 59.260315,90.00783
       parent: 1
-- proto: BananiumDoor
-  entities:
-  - uid: 11871
-    components:
-    - type: Transform
-      pos: 59.5,91.5
-      parent: 1
 - proto: BananiumHorn
   entities:
   - uid: 11899
@@ -165846,6 +165839,11 @@ entities:
     components:
     - type: Transform
       pos: 124.5,133.5
+      parent: 1
+  - uid: 11871
+    components:
+    - type: Transform
+      pos: 59.5,91.5
       parent: 1
 - proto: WoodenBench
   entities:

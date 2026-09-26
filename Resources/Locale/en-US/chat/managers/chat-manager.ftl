@@ -199,11 +199,11 @@ chat-speech-verb-electricity-2 = buzzes
 chat-speech-verb-electricity-3 = screeches
 
 # Goob
-#chat-speech-verb-vulpkanin-1 = rawrs
-#chat-speech-verb-vulpkanin-2 = barks
-#chat-speech-verb-vulpkanin-3 = rurs
-#chat-speech-verb-vulpkanin-4 = yaps
-#chat-speech-verb-vulpkanin = Vulpkanin
+# chat-speech-verb-vulpkanin-1 = rawrs
+# chat-speech-verb-vulpkanin-2 = barks
+# chat-speech-verb-vulpkanin-3 = rurs
+# chat-speech-verb-vulpkanin-4 = yaps
+# chat-speech-verb-vulpkanin = Vulpkanin
 
 chat-speech-verb-name-wawa = Wawa
 chat-speech-verb-wawa-1 = intones
