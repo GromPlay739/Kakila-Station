@@ -112,7 +112,9 @@ ent-WallAndesiteCobblebrick = андезитовая булыжниковая с
 
 ent-WallXenoborg = ксеноборг-стена
     .desc = { ent-WallPlastitanium.desc }
-    .suffix = { ent-WallPlastitanium.suffix }
+ent-WallXenoborgDiagonal = ксеноборг-стена
+    .suffix = Диагональ
+    .desc = { ent-WallPlastitanium.desc }
 
 ent-WallSolidChitin = твёрдый хитин
     .desc = { ent-BaseWall.desc }
@@ -122,3 +124,15 @@ ent-WallReinforcedChitin = укреплённый хитин
 
 ent-WallIronsandCobblebrick = стена из железопесчаных кирпичей
     .desc = Светлые, округлые формы, из которых состоит эта стена, разительно отличаются от железистого песка, из которого, как утверждается, она была сделана.
+
+ent-WallMarble = мраморная стена
+    .desc = { ent-BaseWall.desc }
+ent-WallMarbleIndestructible = мраморная стена
+    .suffix = Неразрушимый
+    .desc = { ent-BaseWall.desc }
+
+ent-WallConcrete = бетонная стена
+    .desc = { ent-BaseWall.desc }
+
+ent-WallBrass = латунная стена
+    .desc = { ent-BaseWall.desc }

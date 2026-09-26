@@ -571,7 +571,7 @@
     state: pda-bartender
 
 - type: entity
-  parent: BaseWidePDA
+  parent: BasePDA
   id: LibrarianPDA
   name: librarian PDA
   description: Smells like books.

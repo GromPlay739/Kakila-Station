@@ -233,7 +233,7 @@ public sealed partial class ClimbSystem : VirtualController
             used: entityToMove)
         {
             BreakOnMove = true,
-            BreakOnDamage = true,
+            BreakOnDamage = user != entityToMove,
             DuplicateCondition = DuplicateConditions.SameTool | DuplicateConditions.SameTarget
         };
 

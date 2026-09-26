@@ -300,48 +300,6 @@
 
 - type: entity
   parent: BaseMaterialDoorNavMap
-  id: BananiumDoor
-  name: bananium door
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/MineralDoors/bananium_door.rsi
-  - type: Door
-    openSound:
-      collection: BikeHorn
-      params:
-        variation: 0.125
-    closeSound:
-      collection: BikeHorn
-      params:
-        variation: 0.125
-  - type: Construction
-    graph: DoorGraph
-    node: bananiumDoor
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 200
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-    - trigger:
-        !type:DamageTrigger
-        damage: 150
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-      - !type:SpawnEntitiesBehavior
-        spawn:
-          MaterialBananium1:
-            min: 1
-            max: 2
-
-- type: entity
-  parent: BaseMaterialDoorNavMap
   id: MetalDoor
   name: metal door
   components:
